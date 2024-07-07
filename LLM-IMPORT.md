@@ -1,4 +1,4 @@
-# Import Model in Ollama
+# Import GGUF Models in Ollama
 ## Hugging Face - GGUF Model
 Import fine tuned custum Model not found in Ollama.
 
