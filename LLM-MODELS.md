@@ -25,6 +25,10 @@ PARAMETER stop <|endoftext|>
 PARAMETER num_keep 4
 LICENSE """Copyright (c) Microsoft Corporation."""
 ```
-<sub>https://www.youtube.com/watch?v=QTv3DQ1tY6I (Customize LLM Model)</sub>  
+<sub><sub>
+[#Ollama-Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
+[#Customize-Model](https://www.youtube.com/watch?v=QTv3DQ1tY6I)</sub></sub> 
+ 
+
 ## Import GGUF Model
 <sub>https://www.youtube.com/watch?v=3BnnsQCmgLo (LLM GGUF Model)<sub>
