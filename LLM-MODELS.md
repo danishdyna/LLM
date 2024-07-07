@@ -1,6 +1,5 @@
 # LLM-MODELS
 LLM Model Custimization - Exploring model handling in Ollama.
-## Reverences
 ### LLM Modelfile
 LLM Model Custimization: https://www.youtube.com/watch?v=QTv3DQ1tY6I
 ```
