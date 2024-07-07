@@ -1,2 +1,2 @@
 # LLM-MODELS
-LLM Model Custimization - Exploring model handling.
+LLM Model Custimization - Exploring model handling Ollama.
