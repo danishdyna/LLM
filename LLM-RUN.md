@@ -1,4 +1,4 @@
-# Ollama Run LLM
+# Ollama Run Model
 Examples of running LLM Models in Ollama.
 ## Ollama Client
 Examples of running models in Ollama from Command Line:
