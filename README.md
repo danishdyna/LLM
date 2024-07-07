@@ -1,5 +1,6 @@
 # LLM Tutorials
-* [Modelfile - Model Customization](https://github.com/danishdyna/LLM/edit/main/LLM-MODELS.md#modelfile---model-customization)
+* [Model Run - Ollama](https://github.com/danishdyna/LLM/blob/main/LLM-MODELS.md)
+* [Model Customize - Modelfile](https://github.com/danishdyna/LLM/blob/main/LLM-MODELS.md)
 
 <sub><sub>
 Refenreces: [#Mark-Down](https://daringfireball.net/projects/markdown/)
