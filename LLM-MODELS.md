@@ -8,7 +8,7 @@ ollama create phi3-bohr     -f ./phi3-bohr
 ```
 Edit the "phi3-bohr" modelfile to your desire.
 ```
-FROM C:\Users\henri\.ollama\models\blobs\sha256-4fed7364ee3e0c7cb4fe0880148bfdfcd1b630981efa0802a6b62ee52e7da97e
+FROM phi3
 TEMPLATE "{{ if .System }}<|system|>
 {{ .System }}<|end|>
 {{ end }}{{ if .Prompt }}<|user|>
@@ -22,7 +22,7 @@ PARAMETER stop <|system|>
 PARAMETER stop <|end|>
 PARAMETER stop <|endoftext|>
 PARAMETER num_keep 4
-LICENSE """Microsoft. Copyright (c) Microsoft Corporation. SOFTWARE."""
+LICENSE """Copyright (c) Microsoft Corporation."""
 ```
 <sub>https://www.youtube.com/watch?v=QTv3DQ1tY6I</sub>  
 ## Import GGUF Model
