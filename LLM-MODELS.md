@@ -6,6 +6,7 @@ Examples of running models in Ollama from Command Line:
 ollama              -- Show usage
 ollama list         -- List Models
 ollama run phi3     -- Run Model
+ollama ps           -- Running Models
 ```
 Model commands
 ```
@@ -18,9 +19,9 @@ Model commands
   /?, /help       Help for a command
   /? shortcuts    Help for keyboard shortcuts
 ```
-## Ollama Server
-Ollama Server Monitoring:
+## Ollama Server (Linux)
+Ollama Server start and resource monitoring on Linux:
 ```
-ollama ps    -- Running Models
-nvidia-smi   -- Linux Nvidia GPU resource usage
+ollama serve -- Ollanma Server start (Linux)
+nvidia-smi   -- Nvidia GPU resource usage (Linux)
 ```
