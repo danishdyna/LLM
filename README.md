@@ -1,2 +1,3 @@
 # LLM Tutorials
-[Mark Down Ref.](https://daringfireball.net/projects/markdown/)
+[//]: References
+[Mark Down](https://daringfireball.net/projects/markdown/)
