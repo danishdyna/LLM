@@ -3,8 +3,9 @@ Examples of running LLM Models in Ollama.
 ## Ollama Client
 Examples of running models in Ollama from Command Line:
 ```
-ollama list
-ollama run phi3
+ollama              # Show usage
+ollama list         # List Models
+ollama run phi3     # Run Model
 ```
 Model commands
 ```
