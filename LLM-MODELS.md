@@ -3,9 +3,9 @@ Examples of running LLM Models in Ollama.
 ## Ollama Client
 Examples of running models in Ollama from Command Line:
 ```
-ollama              # Show usage
-ollama list         # List Models
-ollama run phi3     # Run Model
+ollama              -- Show usage
+ollama list         -- List Models
+ollama run phi3     -- Run Model
 ```
 Model commands
 ```
@@ -21,6 +21,6 @@ Model commands
 ## Ollama Server
 Ollama Server Monitoring:
 ```
-ollama ps
-nvidia-smi   # Linux Nvidia GPU resource usage
+ollama ps    -- Running Models
+nvidia-smi   -- Linux Nvidia GPU resource usage
 ```
