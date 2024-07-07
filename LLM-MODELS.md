@@ -1,7 +1,7 @@
-# LLM-MODELS
+# LLM Models
 LLM Model Custimization - Exploring model handling in Ollama.
-### LLM Modelfile
-LLM Model Custimization: https://www.youtube.com/watch?v=QTv3DQ1tY6I
+### Modelfile Custimization
+<sub>https://www.youtube.com/watch?v=QTv3DQ1tY6I</sub>
 ```
 ollama show phi3 --modelfile > phi3-bohr
 ```
