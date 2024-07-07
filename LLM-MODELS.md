@@ -1,6 +1,6 @@
 # LLM Models (Ollama)
 Examples of Model Custimization and Model import in Ollama.
-## Modelfile Customization
+## Modelfile - Model Customization
 Customize modelfile and create new new model
 ```
 ollama show   phi3 --modelfile > phi3-bohr
