@@ -3,27 +3,14 @@ Examples of Model Custimization and Model import in Ollama.
 ## Modelfile - Model Customization
 Customize modelfile and create new new model
 ```
-ollama show   phi3 --modelfile > phi3-bohr
-ollama create phi3-bohr     -f ./phi3-bohr
-ollama run    phi3-bohr
+ollama show   phi3 --modelfile > phi3-eminem
+ollama create phi3-eminem     -f ./phi3-eminem
+ollama run    phi3-eminem
 ```
-Edit the "phi3-bohr" modelfile to your desire.
+Edit the "phi3-eminem" modelfile to your desire.
 ```
-FROM phi3
-TEMPLATE "{{ if .System }}<|system|>
-{{ .System }}<|end|>
-{{ end }}{{ if .Prompt }}<|user|>
-{{ .Prompt }}<|end|>
-{{ end }}<|assistant|>
-{{ .Response }}<|end|>
-"
-PARAMETER stop <|user|>
-PARAMETER stop <|assistant|>
-PARAMETER stop <|system|>
-PARAMETER stop <|end|>
-PARAMETER stop <|endoftext|>
-PARAMETER num_keep 4
 ```
 <sub><sub>
+[#Ollama](https://github.com/ollama/ollama)
 [#Ollama-Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
 [#Customize-Model](https://www.youtube.com/watch?v=QTv3DQ1tY6I)</sub></sub> 
