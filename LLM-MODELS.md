@@ -1,27 +1,29 @@
-# Ollama Run LLM
-Examples of running LLM Models in Ollama.
-## Ollama Client
-Examples of running models in Ollama from Command Line:
+# LLM Models (Ollama)
+Examples of Model Custimization and Model import in Ollama.
+## Modelfile - Model Customization
+Customize modelfile and create new new model
 ```
-ollama              -- Show usage
-ollama list         -- List Models
-ollama run phi3     -- Run Model
-ollama ps           -- Running Models
+ollama show   phi3 --modelfile > phi3-bohr
+ollama create phi3-bohr     -f ./phi3-bohr
 ```
-Model commands
+Edit the "phi3-bohr" modelfile to your desire.
 ```
-  /set            Set session variables
-  /show           Show model information
-  /load <model>   Load a session or model
-  /save <model>   Save your current session
-  /clear          Clear session context
-  /bye            Exit
-  /?, /help       Help for a command
-  /? shortcuts    Help for keyboard shortcuts
+FROM phi3
+TEMPLATE "{{ if .System }}<|system|>
+{{ .System }}<|end|>
+{{ end }}{{ if .Prompt }}<|user|>
+{{ .Prompt }}<|end|>
+{{ end }}<|assistant|>
+{{ .Response }}<|end|>
+"
+PARAMETER stop <|user|>
+PARAMETER stop <|assistant|>
+PARAMETER stop <|system|>
+PARAMETER stop <|end|>
+PARAMETER stop <|endoftext|>
+PARAMETER num_keep 4
+LICENSE """Copyright (c) Microsoft Corporation."""
 ```
-## Ollama Server (Linux)
-Ollama Server start and resource monitoring on Linux:
-```
-ollama serve -- Ollanma Server start (Linux)
-nvidia-smi   -- Nvidia GPU resource usage (Linux)
-```
+<sub>https://www.youtube.com/watch?v=QTv3DQ1tY6I (Customize LLM Model)</sub>  
+## Import GGUF Model
+<sub>https://www.youtube.com/watch?v=3BnnsQCmgLo (LLM GGUF Model)<sub>
