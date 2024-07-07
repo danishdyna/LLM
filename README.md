@@ -4,4 +4,4 @@
 * [Ollama Import Model (GGUF)](https://github.com/danishdyna/LLM/blob/main/LLM-IMPORT.md)
 
 <sub><sub>
-Refenreces: [#Mark-Down](https://daringfireball.net/projects/markdown/)
+[#Mark-Down](https://daringfireball.net/projects/markdown/)
