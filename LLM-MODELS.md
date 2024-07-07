@@ -5,6 +5,7 @@ Customize modelfile and create new new model
 ```
 ollama show   phi3 --modelfile > phi3-bohr
 ollama create phi3-bohr     -f ./phi3-bohr
+ollama run    phi3-bohr
 ```
 Edit the "phi3-bohr" modelfile to your desire.
 ```
