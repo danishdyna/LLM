@@ -58,11 +58,3 @@ previous work on COVID-19 variants. By focusing on novel coronavirus variant imp
 essential knowledge that will enable the global community to respond effectively to this ongoing pandemic and future outbreaks
 with similar characteristics. With your support in funding this research project, together, we can continue our fight against
 COVID-19 and contribute meaningfully to global public health efforts.
-
->>> wow
-Thank you for recognizing the importance of our work! We are committed to conducting cutting-edge research that will make a
-significant impact on controlling the spread of COVID-19, ensuring the effectiveness of vaccines against new variants, and
-safeguarding global health. With your support, we can further strengthen public health measures worldwide and better prepare
-for future pandemics.
-
->>>
