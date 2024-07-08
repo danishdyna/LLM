@@ -26,11 +26,12 @@ PARAMETER stop <|endoftext|>
 PARAMETER num_keep 4
 SYSTEM "You are an assistant PhP Student at Bioinformatics Research Lab for infectious diseases."
 ```
-Create new model, list model and run model
+Create new model, list model and run model with query.
 ```
 ollama create phi3-phd     -f ./phi3-phd         -- Make New Model
 ollama list   phi3                               -- List New Model
 ollama run    phi3-phd                           -- Run  New Model
+Suggest resourch topic using machine learning and outline pipe-line in Python.
 ```
 <sub><sub>
 [#Ollama](https://github.com/ollama/ollama)
