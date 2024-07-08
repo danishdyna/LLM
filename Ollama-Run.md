@@ -36,7 +36,10 @@ Example: Change System Identity
 ```
   /set system "You are an assistant that acts like a PhD Student at Bioinformatics Research Lab for infectious diseases"
 ```
-
+Ask a question with differenct idetities:
+```
+Please suggest 3 research studies relevant to corona.
+```
 ## Ollama Server (Linux)
 Ollama running models, Server start and Nvidia GPU Resource status.
 ```
