@@ -3,7 +3,7 @@ Examples of Model Custimization and Model import in Ollama.
 ## Modelfile - Model Customization
 Customize modelfile and create new new model
 ```
-ollama show   phi3 --modelfile > phi3-phd        -- Show Modelfile
+ollama show   phi3     --modelfile > phi3-phd    -- Show Modelfile
 notepad       phi3-phd                           -- Edit Modelfile
 ```
 Edit the "phi3-phd" modelfile to your desire.
