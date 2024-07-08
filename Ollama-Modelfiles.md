@@ -5,9 +5,6 @@ Customize modelfile and create new new model
 ```
 ollama show   phi3 --modelfile > phi3-phd        -- Show Modelfile
 notepad       phi3-phd                           -- Edit Modelfile
-ollama create phi3-phd     -f ./phi3-phd         -- Make New Model
-ollama list   phi3                               -- List New Model
-ollama run    phi3-phd                           -- Run  New Model
 ```
 Edit the "phi3-phd" modelfile to your desire.
 ```
