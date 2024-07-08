@@ -31,7 +31,7 @@ Create new model, list model and run model with query: [Responce-Pipeline](https
 ollama create phi3-phd     -f ./phi3-phd         -- Make New Model
 ollama list   phi3                               -- List New Model
 ollama run    phi3-phd                           -- Run  New Model
-Suggest resourch topic using machine learning and outline pipe-line in Python pseudocode examples.
+Suggest resourch topic using machine learning and outline pipe-line with Python pseudocode examples.
 ```
 <sub><sub>
 [#Ollama](https://github.com/ollama/ollama)
