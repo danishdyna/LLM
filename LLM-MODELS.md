@@ -4,7 +4,7 @@ Examples of Model Custimization and Model import in Ollama.
 Customize modelfile and create new new model
 ```
 ollama show   phi3 --modelfile > phi3-eminem        -- Show Modelfile
-notepad       phi3-eminem                           -- Edit New Model
+notepad       phi3-eminem                           -- Edit Modelfile
 ollama create phi3-eminem     -f ./phi3-eminem      -- Make New Model
 
 ollama list   phi3                                  -- List New Model
