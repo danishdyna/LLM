@@ -1,4 +1,4 @@
-# Ollama Modelfiles
+# Ollama Modelfile
 Examples of Model Custimization and Model import in Ollama.
 ## Modelfile - Model Customization
 Customize modelfile and create new new model
