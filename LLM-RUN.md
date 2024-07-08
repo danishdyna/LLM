@@ -18,6 +18,20 @@ Run Model Commands:
   /clear          Clear session context
   /? shortcuts    Help for keyboard shortcuts
 ```
+Set Model Runtime Behavior:
+```
+  /set parameter ...     Set a parameter
+  /set system <string>   Set system message
+  /set template <string> Set prompt template
+  /set history           Enable history
+  /set nohistory         Disable history
+  /set wordwrap          Enable wordwrap
+  /set nowordwrap        Disable wordwrap
+  /set format json       Enable JSON mode
+  /set noformat          Disable formatting
+  /set verbose           Show LLM stats
+  /set quiet             Disable LLM stats
+```
 ## Ollama Server (Linux)
 Ollama running models, Server start and Nvidia GPU Resource status.
 ```
