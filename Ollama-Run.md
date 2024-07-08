@@ -33,7 +33,7 @@ ollama run phi3     -- Run Model
   /set quiet             Disable LLM stats
 ```
 ### Example: System Identity
-Ask question with different idetities:
+Ask question with different idetities: [Responce-Grant](https://github.com/danishdyna/LLM/blob/main/Responce-Grant.txt).
 ```
 /set system "You are an assistant Responcible for grant applications at Research Lab for infectious disease"
 Suggest new research topic relevant to corona and not published.
