@@ -9,13 +9,13 @@ ollama run phi3     -- Run Model
 ```
 Model commands
 ```
+  /bye            Exit
+  /?, /help       Help for a command
   /set            Set session variables
   /show           Show model information
   /load <model>   Load a session or model
   /save <model>   Save your current session
   /clear          Clear session context
-  /bye            Exit
-  /?, /help       Help for a command
   /? shortcuts    Help for keyboard shortcuts
 ```
 ## Ollama Server (Linux)
