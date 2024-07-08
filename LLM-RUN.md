@@ -7,7 +7,7 @@ ollama              -- Show usage
 ollama list         -- List Models
 ollama run phi3     -- Run Model
 ```
-Model commands
+Run Model Commands:
 ```
   /bye            Exit
   /?, /help       Help for a command
