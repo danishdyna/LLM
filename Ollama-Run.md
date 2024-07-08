@@ -7,10 +7,10 @@ ollama              -- Show usage
 ollama list         -- List Models
 ollama run phi3     -- Run Model
 ```
-Run Model Commands:
+### Runtime Commands
 ```
-  /bye            Exit
   /?, /help       Help for a command
+  /bye            Exit
   /set            Set session variables
   /show           Show model information
   /load <model>   Load a session or model
@@ -18,7 +18,7 @@ Run Model Commands:
   /clear          Clear session context
   /? shortcuts    Help for keyboard shortcuts
 ```
-Set Model Runtime Behavior:
+### Runtime Set Behavior:
 ```
   /set parameter ...     Set a parameter
   /set system <string>   Set system message
@@ -32,6 +32,11 @@ Set Model Runtime Behavior:
   /set verbose           Show LLM stats
   /set quiet             Disable LLM stats
 ```
+Example: Change System Identity
+```
+  /set system "You are an assistant that acts like a PhD Student at Bioinformatics Research Lab for infectious diseases"
+```
+
 ## Ollama Server (Linux)
 Ollama running models, Server start and Nvidia GPU Resource status.
 ```
