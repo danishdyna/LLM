@@ -37,9 +37,9 @@ Example: Alternate System Identity
   /set system "You are an assistant who speaks like Eminem, the famous rappers"
   /set system "You are an assistant that acts like a PhD Student at Bioinformatics Research Lab for infectious diseases"
 ```
-Ask a question with differenct idetities:
+Ask question with the two idetities:
 ```
-Please suggest 2 new research studies relevant to corona.
+Suggest 2 new research studies relevant to corona.
 ```
 ## Ollama Server (Linux)
 Ollama running models, Server start and Nvidia GPU Resource status.
