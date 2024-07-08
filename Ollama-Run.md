@@ -32,8 +32,9 @@ ollama run phi3     -- Run Model
   /set verbose           Show LLM stats
   /set quiet             Disable LLM stats
 ```
-Example: Change System Identity
+Example: Alternate System Identity
 ```
+  /set system "You are an assistant that acts like a PhD Student at Bioinformatics Research Lab for infectious diseases"
   /set system "You are an assistant that acts like a PhD Student at Bioinformatics Research Lab for infectious diseases"
 ```
 Ask a question with differenct idetities:
