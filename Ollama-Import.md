@@ -1,4 +1,4 @@
-# Ollama Import GGUF Models
+# Ollama Import Model (GGUF) 
 ## [Hugging Face Models](https://huggingface.co/models)
 Import fine tuned custom GGUF Models not found in [ollama.com/libraries](https://ollama.com/library).
 
