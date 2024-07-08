@@ -35,9 +35,8 @@ ollama run phi3     -- Run Model
 ### Example: System Identity
 Ask question with different idetities:
 ```
-/set system "Assistant Responcible for grant applications and economy in general at Research Lab for infectious disease"
+/set system "You are an assistant Responcible for grant applications at Research Lab for infectious disease"
 Suggest new research topic relevant to corona and not published.
-Suggest new research topic relevant to corona and not published and include an outline for a grant application.
 ```
 ```
 /set system "Assistant PhD Student at Bioinformatics Research Lab for infectious diseases"
