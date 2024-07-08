@@ -1,6 +1,6 @@
-# LLM Tutorials
-* [Ollama Run Model](https://github.com/danishdyna/LLM/blob/main/LLM-RUN.md)
-* [Ollama Create Model (Modelfile)](https://github.com/danishdyna/LLM/blob/main/LLM-MODELS.md)
+# Ollama LLM Model Tutorials
+* [Ollama Run](https://github.com/danishdyna/LLM/blob/main/OLLAMA-RUN.md)
+* [Ollama Modelfiles (Modelfile)](https://github.com/danishdyna/LLM/blob/main/OLLAMA-MODELS.md)
 * [Ollama Import Model (GGUF)](https://github.com/danishdyna/LLM/blob/main/LLM-IMPORT.md)
 
 <sub><sub>
