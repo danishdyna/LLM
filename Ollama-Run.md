@@ -32,7 +32,7 @@ ollama run phi3     -- Run Model
   /set verbose           Show LLM stats
   /set quiet             Disable LLM stats
 ```
-Example: Two alternative System Identities
+### Example: Two alternative System Identities
 ```
   /set system "You are an assistant who speaks like Eminem, the famous rappers"
   /set system "Assistant PhD Student at Bioinformatics Research Lab for infectious diseases"
