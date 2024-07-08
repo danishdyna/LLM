@@ -35,12 +35,11 @@ ollama run phi3     -- Run Model
 Example: Two alternative System Identities
 ```
   /set system "You are an assistant who speaks like Eminem, the famous rappers"
-  /set system "You are an assistant that acts like a PhD Student at Bioinformatics Research Lab for infectious diseases"
   /set system "Assistant PhD Student at Bioinformatics Research Lab for infectious diseases"
 ```
 Ask question with the two idetities:
 ```
-Suggest 2 new research studies relevant to corona.
+Suggest 2 new research studies relevant to corona and not published.
 ```
 ## Ollama Server (Linux)
 Ollama running models, Server start and Nvidia GPU Resource status.
