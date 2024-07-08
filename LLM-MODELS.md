@@ -12,6 +12,24 @@ ollama run    phi3-eminem                           -- Run  New Model
 ```
 Edit the "phi3-eminem" modelfile to your desire.
 ```
+# Modelfile "phi3-eminem"
+FROM phi3:latest
+TEMPLATE "{{ if .System }}<|system|>
+{{ .System }}<|end|>
+{{ end }}{{ if .Prompt }}<|user|>
+{{ .Prompt }}<|end|>
+{{ end }}<|assistant|>
+{{ .Response }}<|end|>
+"
+# RAMETER temperature 1 - 
+PARAMETER temperature 1      
+PARAMETER stop <|user|>
+PARAMETER stop <|assistant|>
+PARAMETER stop <|system|>
+PARAMETER stop <|end|>
+PARAMETER stop <|endoftext|>
+PARAMETER num_keep 4
+SYSTEM "You are an assistant who speaks like Eminem, the famous rapper."
 ```
 <sub><sub>
 [#Ollama](https://github.com/ollama/ollama)
