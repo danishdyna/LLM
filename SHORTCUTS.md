@@ -7,6 +7,8 @@
 <tr><td>Ctrl+z</td><td>Undo change</td></tr>
 <tr><td>Ctrl+y</td><td>Redo change</td></tr>
 <tr><td>Ctrl+f</td><td>Find - Replace</td></tr>
+<tr><td rowspan=2>Ollama</td><td>/?</td><td>Help</td></tr>
+<tr><td>/bye</td><td>Exit</td></tr>
 </table>  
 
 <sub><sub>
