@@ -21,8 +21,7 @@ TEMPLATE "{{ if .System }}<|system|>
 {{ end }}<|assistant|>
 {{ .Response }}<|end|>
 "
-# RAMETER temperature 1 - 
-PARAMETER temperature 1      
+PARAMETER temperature 1      -- 1=Creative, 0.8=Default, 0.6=Coherent
 PARAMETER stop <|user|>
 PARAMETER stop <|assistant|>
 PARAMETER stop <|system|>
