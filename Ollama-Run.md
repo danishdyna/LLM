@@ -39,7 +39,7 @@ Example: Two alternative System Identities
 ```
 Ask question with the two idetities:
 ```
-Suggest 2 new research studies relevant to corona and not published.
+Suggest new research topic relevant to corona and not published.
 ```
 ## Ollama Server (Linux)
 Ollama running models, Server start and Nvidia GPU Resource status.
