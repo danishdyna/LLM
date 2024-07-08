@@ -9,8 +9,8 @@ ollama run phi3     -- Run Model
 ```
 ### Runtime Commands
 ```
+  Ctrl+D, /bye    Exit
   /?, /help       Help for a command
-  /bye            Exit
   /set            Set session variables
   /show           Show model information
   /load <model>   Load a session or model
