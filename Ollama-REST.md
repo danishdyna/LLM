@@ -6,7 +6,7 @@ Generate a response for a given prompt with a provided model.
 ```
 POST /api/generate
 ```
-Request for Responce in JSON with provided Model - no streaming ("stream": false).
+Request with prompt and targeted model ror Responce in JSON with no streaming ("stream": false).
 ```
 curl http://localhost:11434/api/generate -d '{
   "model": "Phi3",
@@ -15,7 +15,7 @@ curl http://localhost:11434/api/generate -d '{
   "stream": false
 }'
 ```
-Responce as a single JSON oject
+Responce as a single JSON object including statistics.
 ```
 {
   "model": "Phi3",
