@@ -1,8 +1,5 @@
 # Ollama Python Library
 Tutorial explores  using Python API in Ollama Python Library to access to LLM Models.
-
-Tutorial explores how to access to LLM Models using Python API in Ollama Python Library .
-
 ##
 
 ##
@@ -10,5 +7,5 @@ Tutorial explores how to access to LLM Models using Python API in Ollama Python 
 ##
 
 <sub><sub>
-[#Mark-Down](https://daringfireball.net/projects/markdown/)
-[#Ollama-Release-0.2](https://github.com/ollama/ollama/releases/tag/v0.2.0)
+[#Mark-Down](https://daringfireball.net/projects/markdown)
+[#Ollama-Python](https://github.com/ollama/ollama-python)
