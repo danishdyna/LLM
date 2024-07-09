@@ -6,4 +6,4 @@ Tutorial on [Ollama REST API](https://github.com/ollama/ollama/blob/main/docs/ap
 [#Ollama](https://github.com/ollama)
 [#Ollama REST API](https://github.com/ollama/ollama/blob/main/docs/api.md)
 [#Ollama Python API](https://github.com/ollama/ollama-python)
-[#Ollama-Releases](https://github.com/ollama/ollama/releases)
+[#REST API](https://www.ibm.com/topics/rest-apis)
