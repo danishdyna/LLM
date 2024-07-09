@@ -15,7 +15,7 @@ response = ollama.chat(model='phi3', messages=[
 ])
 print(response['message']['content'])
 ```
-## Create Model - New System Identity
+## Create Model - Prompt Ingeneer SYSTEM Identity
 ```Python
 import ollama
 modelfile='''
@@ -24,8 +24,10 @@ SYSTEM You are mario from super mario bros.
 '''
 ollama.create(model='example', modelfile=modelfile)
 ```
-##
-
+### Embeddings
+```python
+ollama.embeddings(model='llama3', prompt='The sky is blue because of rayleigh scattering')
+```
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown)
 [#Ollama-Python](https://github.com/ollama/ollama-python)
