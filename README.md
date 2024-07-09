@@ -6,4 +6,4 @@
 
 <sub><sub>
 [#Ollama](https://github.com/ollama){:target="_blank"}
-[#Mark-Down](https://daringfireball.net/projects/markdown/){:target="_blank"}
+[#Mark-Down](https://daringfireball.net/projects/markdown{:target="_blank"})
