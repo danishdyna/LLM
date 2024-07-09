@@ -64,6 +64,6 @@ ollama serve   -- Ollanma Server start       (Linux)
 nvidia-smi     -- Nvidia GPU Resource status (Linux)
 ```
 <sub><sub>
-[#Mark-Down](https://daringfireball.net/projects/markdown/){:target="_blank"}
-[#Ollama](https://github.com/ollama){:target="_blank"}
-[#Ollama-Releases](https://github.com/ollama/ollama/releases){:target="_blank"}
+[#Mark-Down](https://daringfireball.net/projects/markdown/)
+[#Ollama](https://github.com/ollama)
+[#Ollama-Releases](https://github.com/ollama/ollama/releases)
