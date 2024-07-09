@@ -4,7 +4,7 @@ Tutorial explores using Python 3.8+ in Ollama API to integrate Ollama LLM Models
 ```bash
 pip install ollama
 ```
-## Query Ollama API
+## Chat Ollama API
 ```python
 import ollama
 response = ollama.chat(model='phi3', messages=[
@@ -15,9 +15,14 @@ response = ollama.chat(model='phi3', messages=[
 ])
 print(response['message']['content'])
 ```
-
-##
-
+## Create Model - New System Identity
+'''
+modelfile='''
+FROM llama3
+SYSTEM You are mario from super mario bros.
+'''
+ollama.create(model='example', modelfile=modelfile)
+'''
 ##
 
 <sub><sub>
