@@ -65,4 +65,4 @@ nvidia-smi     -- Nvidia GPU Resource status (Linux)
 ```
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
-[#Ollama-Release-0.2](https://github.com/ollama/ollama/releases/tag/v0.2.0)
+[#Ollama-Releases](https://github.com/ollama/ollama/releases)
