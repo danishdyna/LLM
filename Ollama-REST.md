@@ -6,7 +6,7 @@ Generate a response for a given prompt with a provided model.
 ```
 POST /api/generate
 ```
-Prompt Request for JSON Responce with provided Model - no streaming ("stream": false).
+Request for Responce in JSON with provided Model - no streaming ("stream": false).
 ```
 curl http://localhost:11434/api/generate -d '{
   "model": "llama3",
@@ -15,7 +15,7 @@ curl http://localhost:11434/api/generate -d '{
   "stream": false
 }'
 ```
-Response
+Responce in JSON
 ```
 
 {
