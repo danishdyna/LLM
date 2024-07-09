@@ -9,17 +9,16 @@ POST /api/generate
 Request for Responce in JSON with provided Model - no streaming ("stream": false).
 ```
 curl http://localhost:11434/api/generate -d '{
-  "model": "llama3",
+  "model": "Phi3",
   "prompt": "What color is the sky at different times of the day? Respond using JSON",
   "format": "json",
   "stream": false
 }'
 ```
-Responce in JSON
+Responce as a single JSON oject
 ```
-
 {
-  "model": "llama3",
+  "model": "Phi3",
   "created_at": "2023-11-09T21:07:55.186497Z",
   "response": "{\n\"morning\": {\n\"color\": \"blue\"\n},\n\"noon\": {\n\"color\": \"blue-gray\"\n},\n\"afternoon\": {\n\"color\": \"warm gray\"\n},\n\"evening\": {\n\"color\": \"orange\"\n}\n}\n",
   "done": true,
