@@ -16,13 +16,13 @@ response = ollama.chat(model='phi3', messages=[
 print(response['message']['content'])
 ```
 ## Create Model - New System Identity
-'''Python
+```Python
 modelfile='
 FROM llama3
 SYSTEM You are mario from super mario bros.
 '
 ollama.create(model='example', modelfile=modelfile)
-'''
+```
 ##
 
 <sub><sub>
