@@ -15,7 +15,7 @@ response = ollama.chat(model='phi3', messages=[
 ])
 print(response['message']['content'])
 ```
-## Create Model - Prompt Ingeneer SYSTEM Identity
+## Create Model - Prompt Engineer SYSTEM Identity
 ```Python
 import ollama
 modelfile='''
