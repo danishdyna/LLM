@@ -1,8 +1,12 @@
 # Ollama Run LLM Model
-This tutorial give examples on how to run LLM Models in Ollama. The main features are:
-* Run on premesis - Sensitive Data.
-* Run on $1.000 Windows PC - Accessible.
-* Run LLM Models in parallel to enable RAG - Local Data.
+This tutorial give examples on how to run LLM Models in Ollama. Main features are:
+* Run *On Premesis* - **Sensitive Data**.
+* Run on *$1.000 Windows PC* - **Accessible**.
+* Run *Parallel Requests* enables "Multiple Agents" - **Cool**.
+* Run *Parallel Requests* enables "Multiple Chat Session" - **ChatBot**.
+* Run LLM Models in multi sessions - **Local Data**.
+
+* Run *Parallel Requests* enables RAG - **Local Data**.
 
 ## Ollama Client
 Examples of running models in Ollama from Command Line:
