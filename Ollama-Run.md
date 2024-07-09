@@ -1,11 +1,10 @@
 # Ollama Run LLM Model
 This tutorial give examples on how to run LLM Models in Ollama. Main features are:
-* Run *On Premesis* - **Sensitive Data**.
-* Run on *$1.000 Windows PC* - **Accessible**.  
-* 
-* Run *Parallel Requests* enables Multiuser Sessions - **ChatBot**.
-* Run *Parallel Requests* enables Multiuser Code Completion - **Internal IT Team**.
-* Run *Multiple Models* enables Embedding and Completion Models - **RAG - Retrieval Augmented Generation**.
+* Run *On Premesis* - **Security - Sensitive Data**.
+* Run on *$1.000 Windows PC* - **General Access**.
+* Run *Parallel Requests* enables Multiuser Sessions - **ChatBot Service**.
+* Run *Parallel Requests* enables Multiuser Code Completion - **IT Team Code Service**.
+* Run *Multiple Models* enables RAG with Embeddings and Completion Models - **Query Local Data**.
 * Run *Multiple Models* enables "Multiple different Agents" - **Agents - Cool stuff**.
 
 ## Ollama Client
