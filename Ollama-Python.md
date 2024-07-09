@@ -23,3 +23,4 @@ print(response['message']['content'])
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown)
 [#Ollama-Python](https://github.com/ollama/ollama-python)
+[#Ollama-API](https://github.com/ollama/ollama/blob/main/docs/api.md)
