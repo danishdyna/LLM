@@ -1,5 +1,9 @@
-# Ollama Run Model
-Examples of running LLM Models in Ollama.
+# Ollama Run LLM Model
+This tutorial give examples on how to run LLM Models in Ollama. The main features are:
+* Run on premesis - Sensitive Data.
+* Run on $1.000 Windows PC - Accessible.
+* Run LLM Models in parallel to enable RAG - Local Data.
+
 ## Ollama Client
 Examples of running models in Ollama from Command Line:
 ```
@@ -53,3 +57,5 @@ ollama ps      -- Running Models             (Linux/Win)
 ollama serve   -- Ollanma Server start       (Linux)
 nvidia-smi     -- Nvidia GPU Resource status (Linux)
 ```
+<sub><sub>
+[#Mark-Down](https://daringfireball.net/projects/markdown/)
