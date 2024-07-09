@@ -56,16 +56,20 @@ Suggest new research topic relevant to corona and not published.
 /set system "Assistant who speaks like Eminem, the famous rappers know for Slim Shady alter ego"
 Rap over social injustice inflicted on a less forunate character. 
 ```
-## Ollama Server (Linux)
+## Ollama Monitoring
 Ollama running models, Server start and Nvidia GPU Resource status.
 ```
 ollama ps      -- Running Models             (Linux/Win)
 ollama serve   -- Ollanma Server start       (Linux)
 nvidia-smi     -- Nvidia GPU Resource status (Linux)
 ```
-Ollama Server listens on port 11434 
+## Ollama HTTP Server
+Ollama HTTP Server listens on port 11434 
 ```
-*curl http://127.0.0.1:11434*
+curl http://127.0.0.1:11434
+```
+Ollama HTTP Server output status info.
+```
 StatusCode        : 200
 StatusDescription : OK
 Content           : Ollama is running
