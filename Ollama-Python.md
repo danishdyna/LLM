@@ -1,10 +1,10 @@
 # Ollama Python Library
 Tutorial explores using Python 3.8+ in Ollama Python Library API to integrate Ollama LLM Models.
-## Install
-```sh
+## Python - Install Ollama API
+```bash
 pip install ollama
 ```
-## Usage
+## Python - Query Ollama LLM Model
 ```python
 import ollama
 response = ollama.chat(model='phi3', messages=[
