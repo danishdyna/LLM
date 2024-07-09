@@ -1,5 +1,5 @@
-# Ollama Python API
-Tutorial explores Ollama Python API to access to LLM Models.
+# Ollama Python Library
+Tutorial explores Ollama Python Library to access to LLM Models using Python API.
 ##
 
 ##
