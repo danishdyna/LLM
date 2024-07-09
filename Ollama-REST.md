@@ -1,13 +1,13 @@
 # Ollama REST API
 Tutorial on [Ollama REST API](https://github.com/ollama/ollama/blob/main/docs/api.md) is a HTTP based protocol between Ollama Client and Server.
 
-## POST Request - Generate Responce
-POST Reguest with prompt and Generate Responce with given Model.
+## POST Request - Generate Completion Responce
+Request with Prompt and Generate Responce with given Model.
 ```
 POST /api/generate
 ```
-### Request for JSON Responce
-Request with prompt for Responce in JSON with given Model and no streaming ("stream": false).
+### POST Request - Responce in JSON
+Request with Prompt for Responce in JSON with given Model and no streaming ("stream": false).
 ```
 curl http://localhost:11434/api/generate -d '{
   "model": "Phi3",
