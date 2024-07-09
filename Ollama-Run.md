@@ -1,7 +1,9 @@
 # Ollama Run LLM Model
-This tutorial give examples on how to run LLM Models in Ollama. Main features are:
+This tutorial give examples on how to run LLM Models in Open Source Platform Ollama.  
+Main features are:
 * Run *On Premesis* - **Security - Sensitive Data**.
 * Run on *$1.000 Windows PC* - **General Access**.
+* Run from *local application* -- **Python API**
 * Run *Parallel Requests* enables Multiuser Sessions - **ChatBot Service**.
 * Run *Parallel Requests* enables Multiuser Code Completion - **IT Team Code Service**.
 * Run *Multiple Models* enables RAG with Embeddings and Completion Models - **Query Local Data**.
@@ -39,8 +41,8 @@ ollama run phi3     -- Run Model
   /set verbose           Show LLM stats
   /set quiet             Disable LLM stats
 ```
-### Example: System Identity
-Ask question with different idetities: [Responce-Grant](https://github.com/danishdyna/LLM/blob/main/Responce-Grant.txt).
+### System Identity
+Ask question with different *System Idetity*: [Responce-Grant](https://github.com/danishdyna/LLM/blob/main/Responce-Grant.txt).
 ```
 /set system "You are an assistant Responcible for grant applications at Research Lab for infectious disease"
 Suggest new research topic relevant to corona and not published.
