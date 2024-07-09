@@ -5,5 +5,5 @@
 * [Ollama Python API](https://github.com/danishdyna/LLM/blob/main/Ollama-Python.md)
 
 <sub><sub>
-[#Ollama](https://github.com/ollama)
-[#Mark-Down](https://daringfireball.net/projects/markdown/)
+[#Ollama](https://github.com/ollama){:target="_blank"}
+[#Mark-Down](https://daringfireball.net/projects/markdown/){:target="_blank"}
