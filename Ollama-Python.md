@@ -19,7 +19,7 @@ print(response['message']['content'])
 ```Python
 import ollama
 modelfile='''
-FROM llama3
+FROM phi3
 SYSTEM You are mario from super mario bros.
 '''
 ollama.create(model='example', modelfile=modelfile)
