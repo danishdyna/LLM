@@ -1,3 +1,4 @@
+
 # Ollama Run LLM Model
 This tutorial give examples on how to run LLM Models in Open Source Platform Ollama.  
 Main features are:
@@ -64,3 +65,4 @@ nvidia-smi     -- Nvidia GPU Resource status (Linux)
 ```
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
+[#Ollama-Release-0.2](https://github.com/ollama/ollama/releases/tag/v0.2.0)
