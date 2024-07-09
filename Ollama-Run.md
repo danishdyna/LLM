@@ -63,6 +63,19 @@ ollama ps      -- Running Models             (Linux/Win)
 ollama serve   -- Ollanma Server start       (Linux)
 nvidia-smi     -- Nvidia GPU Resource status (Linux)
 ```
+Ollama Server listens on port 11434 
+```
+*curl http://127.0.0.1:11434*
+StatusCode        : 200
+StatusDescription : OK
+Content           : Ollama is running
+RawContent        : HTTP/1.1 200 OK
+                    Content-Length: 17
+                    Content-Type: text/plain; charset=utf-8
+                    Date: Tue, 09 Jul 2024 15:21:35 GMT
+
+                    Ollama is running
+```
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
 [#Ollama](https://github.com/ollama)
