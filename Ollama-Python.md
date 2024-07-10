@@ -4,7 +4,7 @@ Tutorial explores using Ollama Python Library in Python 3.8+ to integrate with O
 ```bash
 pip install ollama
 ```
-## Python Chat
+## Chat
 ```python
 import ollama
 response = ollama.chat(model='phi3', messages=[
