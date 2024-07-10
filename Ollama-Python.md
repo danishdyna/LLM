@@ -10,7 +10,7 @@ pip install ollama
 Generate a Prompt Completion in Python Code.
 ```python
 import ollama
-ollama.generate(model='llama3', prompt='Why is the sky blue?')
+ollama.generate(model='phi3', prompt='Why is the sky blue?')
 print(response['response'])
 ```
 ## Chat
