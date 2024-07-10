@@ -6,8 +6,13 @@ The Functions in the Ollama Python Library follow the structure in [Ollama API](
 ```bash
 pip install ollama
 ```
+## Generate
+Generate a Prompt Completion in Python Code.
+```python
+ollama.generate(model='llama3', prompt='Why is the sky blue?')
+```
 ## Chat
-Generate a chat completion in Python Code.
+Generate a Chat Completion in Python Code.
 ```python
 import ollama
 response = ollama.chat(model='phi3', messages=[
