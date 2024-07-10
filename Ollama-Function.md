@@ -1,6 +1,6 @@
 # Ollama Function Calling
 ## Function Calling
-Defined by OpenAI - the Model responds with a JSON blob in a predefined schema.
+Defined by OpenAI - the Model responds with a JSON blob in a predefined schema.  
 In request api specify "format:json" specuOllama supply a may be nudged to responce as a predefined structure.
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown)
