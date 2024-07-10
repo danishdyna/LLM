@@ -1,9 +1,10 @@
 # Ollama Function Calling
-## Function Calling
 ### OpenAI
 Defined by OpenAI - the Model responds with a JSON blob in a predefined schema.  
 ### Ollama
-In request post specify "format:json" and specify system role to output in JSON schema structure.
+In request post specify "format:json" and system role to output in JSON structure.
+## Function Calling
+
 
 
 <sub><sub>
