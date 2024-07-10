@@ -5,6 +5,7 @@ Tutorial explores using Ollama Python Library in Python 3.8+ to integrate with O
 pip install ollama
 ```
 ## Chat
+Generate a chat completion in Python Code.
 ```python
 import ollama
 response = ollama.chat(model='phi3', messages=[
@@ -16,7 +17,8 @@ response = ollama.chat(model='phi3', messages=[
 print(response['message']['content'])
 ```
 
-## Python Create Model - Prompt Engineer SYSTEM Identity
+## Create Model
+Create new model in Python Code with SYSTEM identity "mario".
 ```Python
 import ollama
 modelfile='''
