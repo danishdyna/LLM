@@ -3,7 +3,7 @@
 ### OpenAI
 Defined by OpenAI - the Model responds with a JSON blob in a predefined schema.  
 ### Ollama
-In request api specify "format:json" specuOllama supply a may be nudged to responce as a predefined structure.
+In request post specify "format:json" and specify system role to output in JSON schema structure.
 
 
 <sub><sub>
