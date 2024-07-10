@@ -17,7 +17,7 @@ response = ollama.chat(model='phi3', messages=[
 print(response['message']['content'])
 ```
 
-## Create Model
+## Create
 Create new model in Python Code with SYSTEM identity "mario".
 ```Python
 import ollama
