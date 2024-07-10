@@ -1,10 +1,10 @@
-# Ollama Python API
-Tutorial explores using Python 3.8+ in Ollama API to integrate Ollama LLM Models.
-## Install Ollama API
+# Ollama Python Library
+Tutorial explores using Ollama Python Library in Python 3.8+ to integrate with Ollama LLM Models.
+## Install Ollama Python Library
 ```bash
 pip install ollama
 ```
-## Chat Ollama API
+## Python Chat
 ```python
 import ollama
 response = ollama.chat(model='phi3', messages=[
@@ -16,7 +16,7 @@ response = ollama.chat(model='phi3', messages=[
 print(response['message']['content'])
 ```
 
-## Create Model - Prompt Engineer SYSTEM Identity
+## Python Create Model - Prompt Engineer SYSTEM Identity
 ```Python
 import ollama
 modelfile='''
