@@ -5,8 +5,6 @@ In _Ollama_ request specify "format:json" and system role to output in JSON stru
 
 
 
-### OpenAI
-### Ollama
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown)
 [#Function-Calling](https://youtu.be/IdPdwQdM9lA)
