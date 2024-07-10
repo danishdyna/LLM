@@ -1,6 +1,6 @@
 # Ollama Python Library
 Tutorial explores using Ollama Python Library in Python 3.8+ to integrate with Ollama LLM Models.
-## Install Ollama Python Library
+## Install Ollama Library
 ```bash
 pip install ollama
 ```
