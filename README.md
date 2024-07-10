@@ -4,6 +4,7 @@
 * [Ollama Import Model](https://github.com/danishdyna/LLM/blob/main/Ollama-Import.md)
 * [Ollama REST API](https://github.com/danishdyna/LLM/blob/main/Ollama-REST.md)
 * [Ollama Python API](https://github.com/danishdyna/LLM/blob/main/Ollama-Python.md)
+* [Ollama Function Calling](https://github.com/danishdyna/LLM/blob/main/Ollama-Function.md)
 
 <sub><sub>
 [#Ollama](https://github.com/ollama)
