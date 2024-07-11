@@ -7,5 +7,6 @@ In _Ollama_ request specify "format:json" and system role to output in JSON stru
 
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown)
-[#Function-Calling](https://youtu.be/IdPdwQdM9lA)
+[#Function-Calling/Matt](https://youtu.be/IdPdwQdM9lA)
+[#Function-Calling/Prompt](https://www.youtube.com/watch?v=V411nI2o3kQ)
 [#Ollama-API](https://github.com/ollama/ollama/blob/main/docs/api.md)
