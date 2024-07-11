@@ -1,5 +1,5 @@
 # Ollama Open Source Models
-[Ollama Models](https://ollama.com/library) are all Open Source and free to download.
+[Ollama Models](https://ollama.com/library) are all Open Source and free to download.  
 Each Model has an infoamation page. Models are downloaded and run in ollama:
 ```
 ollama run phi3
