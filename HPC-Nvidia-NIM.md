@@ -1,4 +1,4 @@
-# Nvidia NIM
+# Nvidia NIMs on HPC
 This tutorial explores running Nvidia NIMs on HPC - Nvidia Container Images Models configured with LLM.
 ### Architecture
 NIMs are packaged as container images on a per model/model family basis. Each NIM is its own Docker container with a model, such as meta/llama3-8b-instruct. These containers include a runtime that runs on any NVIDIA GPU with sufficient GPU memory, but some model/GPU combinations are optimized. NIM automatically downloads the model from NGC, leveraging a local filesystem cache if available. Each NIM is built from a common base, so once a NIM has been downloaded, downloading additional NIMs is extremely fast.
