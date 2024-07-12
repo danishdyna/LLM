@@ -5,7 +5,7 @@ This tutorial explores Nvidia NIM running on HPC. Nvidia Container Images Model 
 * glibc>= 2.35 - Current glic=2.30. **NB! Missing**
 * NVIDIA Container Toolkit - Repo Root not presently subscribed . **NB! Missing**  
 https://nvidia.github.io/libnvidia-container/stable/rpm/ 
-### Prerequisites: Test
+### Install Test
 To ensure things are working, run the following command:
 ```
 docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
