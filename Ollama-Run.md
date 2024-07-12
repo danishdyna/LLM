@@ -1,4 +1,3 @@
-
 # Ollama Run LLM Model
 This tutorial give examples on how to run LLM Models in Open Source Platform Ollama.  
 Main features are:
