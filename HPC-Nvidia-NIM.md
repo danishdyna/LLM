@@ -1,5 +1,5 @@
 # Nvidia NIM
-This tutorial explores Nvidia NIM - Nvidia Container Images Model configured with LLM.
+This tutorial explores Nvidia NIM running on HPC. Nvidia Container Images Model configured with LLM.
 ### Prerequisites
 * NvidiaGPU, x86-64, RHEL8.x, nvidia-driver:5xx?, docker
 * glibc>= 2.35 - Current glic=2.30. **NB! Missing**
