@@ -5,7 +5,7 @@
 * [Ollama REST API](https://github.com/danishdyna/LLM/blob/main/Ollama-REST.md)
 * [Ollama Python API](https://github.com/danishdyna/LLM/blob/main/Ollama-Python.md)
 * [Ollama Function Calling](https://github.com/danishdyna/LLM/blob/main/Ollama-Function.md)
-* [HPC Nvidia NIM](https://github.com/danishdyna/LLM/blob/main/HPC-Nvidia-NIM.md)
+* [HPC Nvidia NIMs](https://github.com/danishdyna/LLM/blob/main/HPC-Nvidia-NIM.md)
 
 <sub><sub>
 [#Ollama](https://github.com/ollama)
