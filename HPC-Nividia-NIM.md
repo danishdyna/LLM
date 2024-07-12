@@ -1,10 +1,14 @@
 # Nvidia NIM
 This tutorial explores Nvidia NIM - LLM Models in a container.
-### Prerequisites:
-* 
-* 
-
-
+### Prerequisites
+* NvidiaGPU, x86-64, RHEL8.x,  glibc >= 2.35?, 
+* nvidia-driver:5xx?, docker
+* NVIDIA Container Toolkit
+### Prerequisites: Test
+To ensure things are working, run the following command:
+```
+docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+```
 ## Ollama Client
 Examples of running models in Ollama from Command Line:
 ```
