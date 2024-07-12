@@ -5,8 +5,8 @@ NIMs are packaged as container images on a per model/model family basis. Each NI
 ### Prerequisites
 * NvidiaGPU, x86-64, RHEL8.x, **nvidia-driver:5xx?**, docker
 * NVIDIA Container Toolkit 1.14.6 from RegionH Nvidia repo.
-* GitHub access: HTTPS/github.io (185.199.110.153, 185.199.111.153, 185.199.108.153,185.199.109.153).
-* [Nvidia NGC Catalog](https://docs.nvidia.com/ngc/gpu-cloud/ngc-catalog-user-guide/index.html) access: HTTPS/nvcr.io(44.232.51.65, 54.191.152.110)   **Missing**
+* HTTPS Access, GitHub: github.io (185.199.110.153, 185.199.111.153, 185.199.108.153,185.199.109.153).
+* HTTPS Access, [Nvidia NGC Catalog](https://docs.nvidia.com/ngc/gpu-cloud/ngc-catalog-user-guide/index.html): nvcr.io(44.232.51.65, 54.191.152.110)   **Missing**
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
 * glibc>= 2.35 - Current glic=2.30. **Missing**
 ### Install
