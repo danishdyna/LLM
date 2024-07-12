@@ -1,9 +1,11 @@
 # Nvidia NIM
 This tutorial explores Nvidia NIMs - Nvidia Container Images with configured LLM Model Platform.
-### Prerequisites
+### Prerequisites ()
 * NvidiaGPU, x86-64, RHEL8.x,  glibc >= 2.35?, 
 * nvidia-driver:5xx?, docker
-* NVIDIA Container Toolkit
+* glibc >= 2.35?,
+* NVIDIA Container Toolkit - Repo Root: Missing in RegionH Subscription  
+https://nvidia.github.io/libnvidia-container/stable/rpm/
 ### Prerequisites: Test
 To ensure things are working, run the following command:
 ```
