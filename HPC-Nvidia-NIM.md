@@ -10,7 +10,7 @@ Open Source License - Apache 2.0.
 * HTTPS Access, GitHub: github.io(185.199.110.153, 185.199.111.153, 185.199.108.153,185.199.109.153). **??**
 * HTTPS Access, [Nvidia NGC Catalog](https://docs.nvidia.com/ngc/gpu-cloud/ngc-catalog-user-guide/index.html): nvcr.io(44.232.51.65, 54.191.152.110)   **Missing**
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
-* glibc>= 2.35 - Current glic=2.30. **Missing**
+* glibc>= 2.35 (current glic 2.30). **Missing**
 ### Install
 [Configure Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker)
 to use the NVIDIA Container Runtime.  
