@@ -29,6 +29,7 @@ docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
 ```
 # References
 * [Generative AI with NVIDIA NIMs](https://developer.nvidia.com/blog/a-simple-guide-to-deploying-generative-ai-with-nvidia-nim/).
+
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
 [#Ollama-Releases](https://github.com/ollama/ollama/releases)
