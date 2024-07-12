@@ -1,5 +1,5 @@
 # Nvidia NIM
-This tutorial explores Nvidia NIM - LLM Models in a container.
+This tutorial explores Nvidia NIMs - Nvidia Container Images with configured LLM Model Platform.
 ### Prerequisites
 * NvidiaGPU, x86-64, RHEL8.x,  glibc >= 2.35?, 
 * nvidia-driver:5xx?, docker
