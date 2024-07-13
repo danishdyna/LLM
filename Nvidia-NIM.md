@@ -8,7 +8,7 @@ Open Source License - Apache 2.0.
 NVIDIA NGC™ is the portal of enterprise services, software, management tools, and support for end-to-end AI and digital twin workflows.  
 [NGC Catalog - NIM Microcervices](https://catalog.ngc.nvidia.com/)  
 ### NGC - Login
-Login or create Nvidia User Account: [NGC Login](https://ngc.nvidia.com/signin)
+Login or create Nvidia User Account: [NGC Login](https://ngc.nvidia.com/signin) Shop2024
 
 ## NIM OnPrem
 ### Prerequisites
