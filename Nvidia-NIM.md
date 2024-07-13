@@ -4,6 +4,11 @@ This tutorial explores running Nvidia NIMs on HPC - Nvidia Container Images Mode
 NIMs are packaged as container images on a per model/model family basis. Each NIM is its own Docker container with a model, such as meta/llama3-8b-instruct. These containers include a runtime that runs on any NVIDIA GPU with sufficient GPU memory, but some model/GPU combinations are optimized. NIM automatically downloads the model from NGC, leveraging a local filesystem cache if available. Each NIM is built from a common base, so once a NIM has been downloaded, downloading additional NIMs is extremely fast.
 ### License
 Open Source License - Apache 2.0.
+## NGC - Nvidia GPU Cloud
+NVIDIA NGC™ is the portal of enterprise services, software, management tools, and support for end-to-end AI and digital twin workflows.  
+[NGC Catalog - NIM Microcervices](https://catalog.ngc.nvidia.com/)  
+[NGC Sign up](https://ngc.nvidia.com/signin)
+## NIM OnPrem
 ### Prerequisites
 * NvidiaGPU, x86-64, RHEL8.x, **nvidia-driver:5xx?**, docker
 * NVIDIA Container Toolkit 1.14.6 from RegionH Nvidia repo.
