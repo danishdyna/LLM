@@ -9,7 +9,13 @@ NVIDIA NGC™ is the portal of enterprise services, software, management tools, 
 [NGC Catalog - NIM Microcervices](https://catalog.ngc.nvidia.com/)  
 ### NGC - Login
 Login or create Nvidia User Account: [NGC Login](https://ngc.nvidia.com/signin) Shop2024
-
+Get familier with NGC: [NGC Catalog User Guide](https://docs.nvidia.com/ngc/gpu-cloud/ngc-catalog-user-guide/index.html)
+### NGC - API Key
+https://org.ngc.nvidia.com/setup/api-key - Generate and save API-Key.
+```
+docker login nvcr.io
+Username: $oauthtoken
+Password: <API-KEY>
 ## NIM OnPrem
 ### Prerequisites
 * NvidiaGPU, x86-64, RHEL8.x, **nvidia-driver:5xx?**, docker
