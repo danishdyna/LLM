@@ -7,7 +7,8 @@
 * [Ollama Function Calling](https://github.com/danishdyna/LLM/blob/main/Ollama-Function.md)
 * [Ollama RAG](https://github.com/danishdyna/LLM/blob/main/Ollama-RAG.md)
 * [Ollama Agents](https://github.com/danishdyna/LLM/blob/main/Ollama-Agents.md)
-* [HPC Nvidia NIMs](https://github.com/danishdyna/LLM/blob/main/HPC-Nvidia-NIM.md)
+* [Nvidia Launchpad](https://github.com/danishdyna/LLM/blob/main/Nvidia-Launchpad.md)
+* [Nvidia NIM](https://github.com/danishdyna/LLM/blob/main/Nvidia-NIM.md)
 
 <sub><sub>
 [#Ollama](https://github.com/ollama)
