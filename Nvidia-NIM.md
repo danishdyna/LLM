@@ -28,7 +28,7 @@ Password: <API-KEY>
 * glibc>= 2.35 (current glic 2.30). **Missing**
 ### Docker on Win11
 Configure Windows Subsystem for Linux (WSL2).
-```
+```PowerShell
 wsl --install
 wsl --set-default-version 2
 ```
