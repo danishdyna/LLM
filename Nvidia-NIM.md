@@ -30,16 +30,18 @@ Password: <API-KEY>
 Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature).
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-wsl --install -d Ubuntu       # Takes 20 min.
+wsl --install -d Ubuntu                         # Takes 20 min.
 wsl --update
 wsl --set-default-version 2
 ```
-Hint: WslRegisterDistribution: 0x800701bc,  WSL2 requires update
-1) MS Store, 2) get "Windows Sussystem for Linux", 3) Install.  
-Hint: Installing "Docker Desktop" WSL first can resulted in boot freeze.
+Download Linux kernel update: [Error: 0x800701bc WSL 2.](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)  
 ``` PowerShell
-sc stop “<SERVICe>” & sc config “<SERVICe>” start=disabled 
+wget https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+wsl_update_x64.msi      # 
 ```
+
+Hint: Installing "Docker Desktop" WSL first can resulted in boot freeze.  
+Force reboot, disrupt boot - repair!
 ### Docker on RHEL8
 [Configure Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker)
 to use the NVIDIA Container Runtime.  
