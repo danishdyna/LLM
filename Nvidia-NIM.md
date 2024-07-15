@@ -29,6 +29,7 @@ Password: <API-KEY>
 ### Docker on Win11
 Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature):
 ``` PowerShell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install
 wsl --set-default-version 2
 ```
