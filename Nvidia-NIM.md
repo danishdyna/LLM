@@ -27,12 +27,13 @@ Password: <API-KEY>
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
 * glibc>= 2.35 (current glic 2.30). **Missing**
 ### Docker on Win11
-Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature):
+Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature).
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-wsl --install
+wsl --install                   # Takes 10-20 min.
 wsl --set-default-version 2
 ```
+Hint: Installing "Docker Desktop" WSL firt resulted in boot freeze.
 ### Docker on RHEL8
 [Configure Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker)
 to use the NVIDIA Container Runtime.  
