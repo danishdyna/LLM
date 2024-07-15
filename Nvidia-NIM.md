@@ -33,6 +33,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 wsl --install -d Ubuntu       # Takes 20 min.
 wsl --set-default-version 2
 ```
+Hint: WslRegisterDistribution: 0x800701bc,  WSL2 requires update
+1) MS Store, get "Windows Sussystem for Linux", Install.
 Hint: Installing "Docker Desktop" WSL first can resulted in boot freeze.
 ``` PowerShell
 sc stop “<SERVICe>” & sc config “<SERVICe>” start=disabled 
