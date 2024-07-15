@@ -36,7 +36,7 @@ wsl --set-default-version 2
 Hint: Installing "Docker Desktop" WSL first can resulted in boot freeze.
 ``` PowerShell
 sc stop “<SERVICe>” & sc config “<SERVICe>” start=disabled 
-``` PowerShell
+```
 ### Docker on RHEL8
 [Configure Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker)
 to use the NVIDIA Container Runtime.  
