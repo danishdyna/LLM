@@ -33,7 +33,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 wsl --install                   # Takes 10-20 min.
 wsl --set-default-version 2
 ```
-Hint: Installing "Docker Desktop" WSL firt resulted in boot freeze.
+Hint: Installing "Docker Desktop" WSL first can resulted in boot freeze.
 ### Docker on RHEL8
 [Configure Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker)
 to use the NVIDIA Container Runtime.  
