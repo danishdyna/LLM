@@ -31,7 +31,6 @@ Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install -d Ubuntu                         # Takes 20 min.
-wsl --update
 wsl --set-default-version 2
 ```
 Download Linux kernel update: [Error: 0x800701bc WSL 2.](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)  
