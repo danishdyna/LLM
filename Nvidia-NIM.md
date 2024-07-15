@@ -27,6 +27,8 @@ Password: <API-KEY>
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
 * glibc>= 2.35 (current glic 2.30). **Missing**
 ### Docker on Win11
+Download and install [PowerShell-7](https://github.com/PowerShell/PowerShell/releases/download/v7.4.3/PowerShell-7.4.3-win-x64.msi): PowerShell-7.4.3-win-x64.msi  
+
 Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature).
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
