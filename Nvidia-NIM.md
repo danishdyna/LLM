@@ -4,6 +4,7 @@ This tutorial explores running Nvidia NIMs on HPC - Nvidia Container Images Mode
 NIMs are packaged as container images on a per model/model family basis. Each NIM is its own Docker container with a model, such as meta/llama3-8b-instruct. These containers include a runtime that runs on any NVIDIA GPU with sufficient GPU memory, but some model/GPU combinations are optimized. NIM automatically downloads the model from NGC, leveraging a local filesystem cache if available. Each NIM is built from a common base, so once a NIM has been downloaded, downloading additional NIMs is extremely fast.
 ### License
 Open Source License - Apache 2.0.
+
 ## NGC - Nvidia GPU Cloud
 NVIDIA NGC™ is the portal of enterprise services, software, management tools, and support for end-to-end AI and digital twin workflows.  
 [NGC Catalog - NIM Microcervices](https://catalog.ngc.nvidia.com/)  
@@ -16,6 +17,7 @@ https://org.ngc.nvidia.com/setup/api-key - Generate and save API-Key.
 docker login nvcr.io
 Username: $oauthtoken
 Password: <API-KEY>
+```
 ## NIM OnPrem
 ### Prerequisites
 * NvidiaGPU, x86-64, RHEL8.x, **nvidia-driver:5xx?**, docker
@@ -25,7 +27,7 @@ Password: <API-KEY>
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
 * glibc>= 2.35 (current glic 2.30). **Missing**
 ### Docker on Win11
-Configure Windows Subsystem for Linux (WSL) 2.
+Configure Windows Subsystem for Linux (WSL2).
 ```
 wsl --install
 wsl --set-default-version 2
