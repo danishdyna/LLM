@@ -31,6 +31,7 @@ Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install -d Ubuntu       # Takes 20 min.
+wsl --update
 wsl --set-default-version 2
 ```
 Hint: WslRegisterDistribution: 0x800701bc,  WSL2 requires update
