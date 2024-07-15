@@ -30,7 +30,7 @@ Password: <API-KEY>
 Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature).
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-wsl --install                   # Takes 10-20 min.
+wsl --install                   # Takes 20 min.
 wsl --set-default-version 2
 ```
 Hint: Installing "Docker Desktop" WSL first can resulted in boot freeze.
