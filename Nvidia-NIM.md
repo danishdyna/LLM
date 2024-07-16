@@ -26,10 +26,10 @@ Password: <API-KEY>
 * HTTPS Access, [Nvidia NGC Catalog](https://docs.nvidia.com/ngc/gpu-cloud/ngc-catalog-user-guide/index.html): nvcr.io(44.232.51.65, 54.191.152.110)   **Missing**
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
 * glibc>= 2.35 (current glic 2.30). **Missing**
-### Docker on Win11
+### Docker on Windows 11
 Download and install [PowerShell-7](https://github.com/PowerShell/PowerShell/releases/download/v7.4.3/PowerShell-7.4.3-win-x64.msi): PowerShell-7.4.3-win-x64.msi  
 
-Configure Windows Subsystem for Linux WSL in PowerShell (turn on Windows Feature).
+Configure [WSL 2.2.](https://github.com/microsoft/WSL/releases)4 25/4-2024 in PowerShell (turn on Windows Feature).
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install -d Ubuntu                         # Takes 20 min.
