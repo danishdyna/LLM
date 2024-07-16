@@ -29,7 +29,7 @@ Password: <API-KEY>
 ### Docker on Windows 11
 Download and install [PowerShell-7](https://github.com/PowerShell/PowerShell/releases/download/v7.4.3/PowerShell-7.4.3-win-x64.msi): PowerShell-7.4.3-win-x64.msi  
 
-Configure [WSL 2.2.](https://github.com/microsoft/WSL/releases)4 25/4-2024 in PowerShell (turn on Windows Feature).
+Configure [WSL 2.2.4](https://github.com/microsoft/WSL/releases) 25/4-2024 in PowerShell (turn on Windows Feature).
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install -d Ubuntu                         # Takes 20 min.
