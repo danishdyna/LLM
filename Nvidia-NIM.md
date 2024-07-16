@@ -31,6 +31,7 @@ Download and install [PowerShell-7](https://github.com/PowerShell/PowerShell/rel
 
 Configure [WSL 2.2.4](https://github.com/microsoft/WSL/releases) 25/4-2024 in PowerShell (turn on Windows Feature).
 ``` PowerShell
+wsl.2.2.4.0.x64.msi
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 wsl --install -d Ubuntu                         # Takes 20 min.
 wsl --set-default-version 2
