@@ -16,7 +16,7 @@ ollama              -- Show usage
 ollama list         -- List Models
 ollama run phi3     -- Run Model
 ```
-### Program Environement
+### Environment
 ```
 OLLAMA_HOST=http://127.0.0.1:11434
 #OLLAMA_HOST=127.0.0.1:11434
