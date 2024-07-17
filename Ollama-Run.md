@@ -18,12 +18,12 @@ ollama run phi3     -- Run Model
 ```
 ### Environment
 ```
-OLLAMA_HOST=http://127.0.0.1:11434
-#OLLAMA_HOST=127.0.0.1:11434
-OLLAMA_MODELS=/ollama/models
-OLLAMA_NUM_PARALLEL=4
-OLLAMA_MAX_LOADED_MODELS=2
-v```
+OLLAMA_HOST=http://127.0.0.1:11434           # Model host and port
+#OLLAMA_HOST=127.0.0.1:11434                 # 
+OLLAMA_MODELS=/ollama/models                 # Model directory
+OLLAMA_NUM_PARALLEL=4                        # Parallel queries - same model
+OLLAMA_MAX_LOADED_MODELS=2                   # Parallel models
+```
 ### Runtime Commands
 ```
   /?, /help       Help for a command
