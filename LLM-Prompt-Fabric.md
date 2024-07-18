@@ -1,8 +1,8 @@
 # Fabric
 https://www.youtube.com/watch?v=wPEyyigh10g&t=111s
 ## Challenges
-* Dont have to talk to friends
-* Too mutch content to read
+* Time to talk to friends
+* Time to read contemt
 * Time for academic papers
 ## Fabric
 https://github.com/danielmiessler/fabric  
