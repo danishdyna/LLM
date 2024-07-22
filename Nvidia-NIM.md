@@ -27,13 +27,16 @@ Password: <API-KEY>
 * Nvidia NGC Account: Go to [NGC sign-in page](http://ngc.nvidia.com/signin). **Missing**
 * glibc>= 2.35 (current glic 2.30). **Missing**
 ### Docker on Windows 11
-Download and install [WSL 2.2.4](https://github.com/microsoft/WSL/releases) 25/4-2024
-Enable WSL in PowerShell (turn on Windows Feature).
+Enable WSL in PowerShell (# "Turn Windows Feature on or off").
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-wsl --version                                # Version 2.2.4.
+```
+Download and install [WSL 2.2.4](https://github.com/microsoft/WSL/releases) 25/4-2024
+
+``` PowerShell
+wsl --version                                # WSL Version 2.2.4.
+wsl --set-default-version 2                  # WSL2
 wsl --install Ubuntu                         # Takes 20 min.
-wsl --set-default-version 2
 shutdown -r -t 0
 ```
 
