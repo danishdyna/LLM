@@ -31,8 +31,7 @@ Enable WSL in PowerShell (# "Turn Windows Feature on or off").
 ``` PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-Download and install [WSL 2.2.4](https://github.com/microsoft/WSL/releases) (25/4-2024)  
-Install Ubuntu.
+Download/install [WSL 2.2.4](https://github.com/microsoft/WSL/releases) (25/4-2024), install Ubuntu and reboot.
 ``` PowerShell
 wsl --version                                # WSL Version 2.2.4.
 wsl --set-default-version 2                  # WSL2
