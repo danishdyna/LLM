@@ -10,6 +10,9 @@
 * [Nvidia Launchpad](https://github.com/danishdyna/LLM/blob/main/Nvidia-Launchpad.md)
 * [Nvidia NIM](https://github.com/danishdyna/LLM/blob/main/Nvidia-NIM.md)
 
+### New Topics
+Benchmark on own data: https://www.promptfoo.dev/docs/guides/phi-vs-llama/
+
 <sub><sub>
 [#Ollama](https://github.com/ollama)
 [#Mark-Down](https://daringfireball.net/projects/markdown)
