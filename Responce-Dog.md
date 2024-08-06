@@ -18,7 +18,8 @@ ollama create phi3-dog -f phi3-dog
 <Modify modelfile "phi3-dog">
 ollama run phi3-dog
 ```
-## Morning - whanna go for a walk?
+## Run Dog Model
+_Morning - whanna go for a walk? (prompt)_
 ### _Temperature 0.2 "Predictable - Repetitive"_  
 Woof! *wags tail vigorously* Good morning! Let's get moving and stretch those paws out! [Will the weather be nice
 today for our walk?] I wonder if there are any interesting smells or sights we might encounter on our stroll.  
