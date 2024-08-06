@@ -37,7 +37,6 @@ ollama run    phi3-phd                           -- Run  New Model
 Suggest research topic using machine learning and outline pipe-line with Python pseudocode examples.
 ```
 ## Advanced Topics
-Here is a link to <a href="https://www.google.com" target="_blank">OpenAI</a> that opens in a new tab.
 [https://www.neuralframes.com/](https://www.neuralframes.com/)
 <br><sub><sub>
 [#Ollama](https://github.com/ollama/ollama)
