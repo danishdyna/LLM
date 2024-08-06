@@ -36,7 +36,9 @@ ollama list   phi3                               -- List New Model
 ollama run    phi3-phd                           -- Run  New Model
 Suggest research topic using machine learning and outline pipe-line with Python pseudocode examples.
 ```
-<sub><sub>
+## Advanced Topics
+[]()
+<br><sub><sub>
 [#Ollama](https://github.com/ollama/ollama)
 [#Ollama-Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
 [#Customize-Model](https://www.youtube.com/watch?v=QTv3DQ1tY6I)</sub></sub> 
