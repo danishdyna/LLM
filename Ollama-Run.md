@@ -3,7 +3,7 @@ This tutorial give examples on how to run LLM Models in Open Source Platform Oll
 Main features are:
 * Run *On Premesis* - **Security - Sensitive Data**.
 * Run on *$1.000 Windows PC* - **General Access**.
-* Run from *local application* -- **Python API**
+* Run from *local application* -- **Python API** 
 * Run *Parallel Requests* enables Multiuser Sessions - **ChatBot Service**.
 * Run *Parallel Requests* enables Multiuser Code Completion - **IT Team Code Service**.
 * Run *Multiple Models* enables RAG with Embeddings and Completion Models - **Query Local Data**.
