@@ -1,6 +1,6 @@
 # Ollama Application Platform
 This tutorial give examples on how to run Open Source LLM Models on the Ollama.  
-Interest is inspired by the AI/GPU revolution started 2020, knowing theachers learn the most.  
+Interest is inspired by the AI/GPU revolution starting with GPT-3 in 2020.
 
 **Features**
 * Run *On Premesis* - **Security - Sensitive Data**.
