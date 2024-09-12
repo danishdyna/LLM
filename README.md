@@ -1,5 +1,5 @@
 # Tutorial
-## Open Source LLMs - with Ollama
+## Open Source LLMs - Ollama Application Platform
 * [Ollama Application Platform](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [LLM on $1000 PC](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [LLM on HCP Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
