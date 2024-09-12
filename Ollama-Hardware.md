@@ -10,6 +10,8 @@ Choose models with a memory footprint that matches available system memory and y
 Model relases are frequent and recommendations likely outdated - well heres my take:
 
 * [phi3.5](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/ba-p/4225280) (3.8b Parameters, 2.2GB Size, 128K Tokens, April 2024 Release) - Favorite.
+
+For exploring embeddings at a later time - I have mu eyes on thsi model:   
 * all-minilm (22m Parameters, 46MB Size, Embeddings model, Maj 2024 Release) - Not used.
 
 ### Installation on Windows
