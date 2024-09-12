@@ -1,8 +1,8 @@
 # Tutorial
 ## Open Source LLMs On-Prem
 * [Ollama Application Platform](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
-* [LLM on $1000 PC](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
-* [LLM on HCP Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
+* [On-Prem $1000 PC](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
+* [On-Prem HCP Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [Ollama Create Model](https://github.com/danishdyna/LLM/blob/main/Ollama-Create.md)
 * [Ollama Import Model](https://github.com/danishdyna/LLM/blob/main/Ollama-Import.md)
 * [Ollama REST API](https://github.com/danishdyna/LLM/blob/main/Ollama-REST.md)
