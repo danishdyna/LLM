@@ -1,5 +1,5 @@
 # Ollama Create Model (Modelfile)
-Tutorial customizes the Modelfile and creates a new Model in Ollama.
+Tutorial on customising the Modelfile and creates a new Model in Ollama.
 ## Model Samples
 * [Dog Model - Tweeking SYSTEM and Temperatur](./Responce-Dog.md)
 ## Modelfile
