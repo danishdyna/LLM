@@ -1,8 +1,8 @@
 # Compute - Hardware Platform
-This tutorial gives examples on how to run LLM Models on dofferent Hardware Platforms.  
-The Ollama Application Platform is chosen for ease of use and being Open Source.  
-Interest is inspired by the AI/GPU revolution starting with GPT-3 in 2020.
-
+This tutorial gives examples on how to run LLM Models on On-Prem Hardware Platforms.  
+The $1K Windows PC is choosen as an example easy general access to On-Prem LLMs.  
+The  
+  
 **Features**
 * Run *On Premesis* - **Security - Sensitive Data**.
 * Run on *$1.000 Windows PC* - **General Access**.
