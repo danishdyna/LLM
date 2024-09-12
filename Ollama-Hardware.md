@@ -9,7 +9,8 @@ Windows PCs laking GPU/TPU (AI Accceletators) have compute and memory constraint
 Choose models with a memory footprint that matches available system memory and your impations.  
 Model relases are frequent and recommendations likely outdated - well heres my take:
 
-* [phi3.5](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/ba-p/4225280) (3.8b Parameters, 2.2GB Size, 128K Tokens, April 2024 Release)
+* [phi3.5](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/ba-p/4225280) (3.8b Parameters, 2.2GB Size, 128K Tokens, April 2024 Release) - Favorite.
+* all-minilm (22m Parameters, 46MB Size, Embeddings model, Maj 2024 Release) - Not used.
 
 ### Installation on Windows
 Download and install from
