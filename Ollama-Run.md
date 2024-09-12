@@ -1,5 +1,5 @@
 # Ollama Application
-This tutorial give examples on how to run LLM Models in Open Source Platform Ollama.  
+This tutorial give examples on how to run Open Source LLM Models on the Ollama.  
 
 **Features**
 * Run *On Premesis* - **Security - Sensitive Data**.
