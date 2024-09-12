@@ -3,31 +3,9 @@ This tutorial gives examples on how to run LLM Models on On-Prem Hardware Platfo
 The $1K Windows PC gives easy general access to On-Prem LLMs with a limited resource frame.  
 The $300 Linux GPU Cluster gives a state of the art powerful On-Prem access to LLMs. 
   
-**Features**
-* Run *On Premesis* - **Security - Sensitive Data**.
-* Run on *$1.000 Windows PC* - **General Access**.
-* Run from *local application* -- **Python API** 
-* Run *Parallel Requests* enables Multiuser Sessions - **ChatBot Service**.
-* Run *Parallel Requests* enables Multiuser Code Completion - **IT Team Code Service**.
-* Run *Multiple Models* enables RAG with Embeddings and Completion Models - **Query Local Data**.
-* Run *Multiple Models* enables "Multiple different Agents" - **Agents - Cool stuff**.
+## Ollama for Windows
+Download and install from [ollama.com](https://ollama.com/download)
 
-## Ollama Client
-Examples of running models in Ollama from Command Line:
-```
-ollama              -- Show usage
-ollama list         -- List Models
-ollama run phi3     -- Run Model
-```
-### Environment
-Important environment variables to control Ollama.
-```
-OLLAMA_HOST=http://127.0.0.1:11434           # Model host and port
-#OLLAMA_HOST=127.0.0.1:11434                 # 
-OLLAMA_MODELS=/ollama/models                 # Model directory
-OLLAMA_NUM_PARALLEL=4                        # Parallel queries - same model
-OLLAMA_MAX_LOADED_MODELS=2                   # Parallel models
-```
 ### Runtime Commands
 ```
   /?, /help       Help for a command
