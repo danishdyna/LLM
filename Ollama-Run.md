@@ -73,6 +73,7 @@ nvidia-smi     -- Nvidia GPU Resource status (Linux)
 Ollama HTTP Server listens on port 11434 and will default output status.
 ```
 $ curl http://127.0.0.1:11434
+
 StatusCode        : 200
 StatusDescription : OK
 Content           : Ollama is running
