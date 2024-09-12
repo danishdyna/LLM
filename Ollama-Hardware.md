@@ -13,7 +13,7 @@ ollama list
 ollama run phi
 ```
 ### Monitor on Windows
-Monitor Ollama memory usage on Windows - alternatively use **MS Task Monitor**.
+Monitor Ollama memory usage on Windows - alternatively use MS Task Monitor.
 ```
 tasklist | findstr /i "ollama"
 ```
