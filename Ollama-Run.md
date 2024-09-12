@@ -18,6 +18,7 @@ ollama list         -- List Models
 ollama run phi3     -- Run Model
 ```
 ### Environment
+Improtant environment variables to control Ollama.
 ```
 OLLAMA_HOST=http://127.0.0.1:11434           # Model host and port
 #OLLAMA_HOST=127.0.0.1:11434                 # 
