@@ -1,4 +1,4 @@
-# Ollama Run LLM Model
+# Ollama Client App
 This tutorial give examples on how to run LLM Models in Open Source Platform Ollama.  
 
 **Features**
