@@ -1,4 +1,4 @@
-# Tutorials using Ollama running Open Source LLM Modela
+# Tutorials using Ollama running Open Source LLMs
 * [Ollama Application Platform - Open Source LLM](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [LLM on $1000 PC](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [LLM on HCP Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
