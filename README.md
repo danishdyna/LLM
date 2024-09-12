@@ -1,6 +1,6 @@
 # Tutorial
 ## Open Source LLMs On-Prem
-* [Ollama Application Platform](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
+* [Ollama Model Platform](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [Windows PC vs Linux GPU Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
 * [Model Create](https://github.com/danishdyna/LLM/blob/main/Ollama-Create.md)
 * [Model Import](https://github.com/danishdyna/LLM/blob/main/Ollama-Import.md)
