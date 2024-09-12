@@ -4,8 +4,8 @@ The $1K Windows PC gives easy general access to On-Prem LLMs with a limited reso
 The $300 Linux GPU Cluster gives a state of the art powerful On-Prem access to LLMs. 
   
 ## Ollama for Windows
-Download and install from [ollama.com](https://ollama.com/download)
-
+Download and install from [https://ollama.com/download](https://ollama.com/download)
+https://ollama.com/download
 ### Runtime Commands
 ```
   /?, /help       Help for a command
