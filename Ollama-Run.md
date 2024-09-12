@@ -1,7 +1,7 @@
 # Ollama Run LLM Model
 This tutorial give examples on how to run LLM Models in Open Source Platform Ollama.  
 
-Features
+**Features**
 * Run *On Premesis* - **Security - Sensitive Data**.
 * Run on *$1.000 Windows PC* - **General Access**.
 * Run from *local application* -- **Python API** 
