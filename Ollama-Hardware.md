@@ -4,7 +4,14 @@ The $1K Windows PC gives easy general access to On-Prem LLMs with a limited reso
 The $300 Linux GPU Cluster gives a state of the art powerful On-Prem access to LLMs. 
   
 ## Ollama on Windows PC
-### Installtion on Windows
+Windows PCs laking GPU/TPU (AI Accceletators) have compute and memory constraints.
+### Models on Windows
+Choose models with a memory footprint that matches available system memory and your impations.  
+Model relases are frequent and recommendations likely outdated - well heres my take:
+
+* [phi3.5](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/ba-p/4225280) (3.8b Parameters, 2.2GB Size, 128K Tokens, April 2024 Release)
+
+### Installation on Windows
 Download and install from
 https://ollama.com/download  
 Run Ollama from Command Console or PowerShell 
