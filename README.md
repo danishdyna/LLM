@@ -1,7 +1,7 @@
 # Tutorial
 ## Open Source LLMs On-Prem
-* [Ollama Model Platform](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
-* [Compute - $1K Windows PC vs $300K Linux GPU Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Hardware.md)
+* [Ollama Model Framework](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
+* [Compute Platform - $1K Windows PC vs $300K Linux GPU Cluster](https://github.com/danishdyna/LLM/blob/main/Ollama-Hardware.md)
 * [Model Create](https://github.com/danishdyna/LLM/blob/main/Ollama-Create.md)
 * [Model Import](https://github.com/danishdyna/LLM/blob/main/Ollama-Import.md)
 * [API REST](https://github.com/danishdyna/LLM/blob/main/Ollama-REST.md)
