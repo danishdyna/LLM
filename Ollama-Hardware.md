@@ -5,7 +5,13 @@ The $300 Linux GPU Cluster gives a state of the art powerful On-Prem access to L
   
 ## Ollama for Windows
 Download and install from
-https://ollama.com/download
+https://ollama.com/download  
+Run from Command Console or PowerShell 
+```
+ollama list
+ollama run phi
+```
+
 ### Runtime Commands
 ```
   /?, /help       Help for a command
