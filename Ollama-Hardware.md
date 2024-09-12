@@ -1,4 +1,4 @@
-# Compute Hardware Platform
+# Compute - Hardware Platform
 This tutorial give examples on how to run Open Source LLM Models.  
 The Ollama Application Platform is chosen for ease of use and being Open Source.  
 Interest is inspired by the AI/GPU revolution starting with GPT-3 in 2020.
