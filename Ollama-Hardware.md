@@ -31,7 +31,7 @@ The scope is Limux RHEL Server with AMD 64 Core CPu, 1TB RAM and Nividia A100/40
 Within the scope most Open Source LLM may run, 
 Model relases are frequent and recommendations likely outdated - well heres my take:
 
-* 
+* [llama3.1:70b](https://ai.meta.com/blog/meta-llama-3-1/) (70b Parameters, 40GB Size, 128K Tokens/Context, July 2024 Release) -  Rivals the top AI models.
 ### Installation and run on Linux
 Download and install from
 https://ollama.com/download  
