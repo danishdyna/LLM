@@ -57,5 +57,5 @@ ollama run phi
 ### Monitor on Nvidia GPU
 Monitor Ollama memory usage on Windows - alternatively use MS Task Monitor.
 ```
-watch nvidia-smi
+$ watch nvidia-smi
 ```
