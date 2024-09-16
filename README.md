@@ -1,7 +1,7 @@
 # Tutorial
 ## Open Source LLMs On-Prem
 * [Ollama Model Framework](https://github.com/danishdyna/LLM/blob/main/Ollama-Run.md)
-* [Compute Platform - Windows vs Linux](https://github.com/danishdyna/LLM/blob/main/Ollama-Hardware.md)
+* [Hardware Platforms](https://github.com/danishdyna/LLM/blob/main/Ollama-Hardware.md)
 * [Model Create](https://github.com/danishdyna/LLM/blob/main/Ollama-Create.md)
 * [Model Import](https://github.com/danishdyna/LLM/blob/main/Ollama-Import.md)
 * [API REST](https://github.com/danishdyna/LLM/blob/main/Ollama-REST.md)
