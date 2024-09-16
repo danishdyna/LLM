@@ -15,7 +15,7 @@ For exploring embeddings at a later time - I have mu eyes on _all-minilm_ (22m P
 ### Installation and run on Windows
 Download and install from
 https://ollama.com/download  
-The Ollame Backgound Service is started when Ollama is run from Command Console or PowerShell.
+The Ollama Backgound Service is started when Ollama is run from Command Console or PowerShell.
 ```
 ollama list
 ollama run phi
