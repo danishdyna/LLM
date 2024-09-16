@@ -3,9 +3,9 @@ This tutorial gives Ollama examples on how to run LLM Models on On-Prem Hardware
 The $1K Windows PC gives easy general access to On-Prem LLMs with a limited resource frame.  
 The $300 Linux GPU Cluster gives a state of the art powerful On-Prem access to LLMs. 
   
-## Ollama on Windows PC
+## Windows PC
 Windows PCs laking GPU/TPU (AI Accceletators) have compute and memory constraints.
-### Models on Windows
+### LLM Models on Windows
 Choose models with a memory footprint that matches available system memory and your impations.  
 Model relases are frequent and recommendations likely outdated - well heres my take:
 
@@ -25,9 +25,9 @@ Monitor Ollama memory usage on Windows - alternatively use MS Task Monitor.
 ```
 tasklist | findstr /i "ollama"
 ```
-## Ollama on RHEL Linux with Nividia GPU
+## Linux with Nividia GPUs
 The scope is Limux RHEL Server with AMD 64 Core CPu, 1TB RAM and Nividia A100/40GB GPUs.
-### Models on Windows
+### Models on Linux
 Within the scope most Open Source LLM may run, 
 Model relases are frequent and recommendations likely outdated - well heres my take:
 
