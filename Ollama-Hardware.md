@@ -12,7 +12,6 @@ Model relases are frequent and recommendations likely outdated - well heres my t
 * [phi3.5](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/ba-p/4225280) (3.8b Parameters, 2.2GB Size, 128K Tokens, April 2024 Release) - Favorite.
 
 For exploring embeddings at a later time - I have mu eyes on _all-minilm_ (22m Parameters, 46MB Size, Embeddings model, Maj 2024 Release). Embeddings only!
-
 ### Installation and run on Windows
 Download and install from
 https://ollama.com/download  
@@ -32,7 +31,7 @@ The scope is Limux RHEL Server with AMD 64 Core CPu, 1TB RAM and Nividia A100/40
 Within the scope most Open Source LLM may run, 
 Model relases are frequent and recommendations likely outdated - well heres my take:
 
-*  
+* 
 ### Installation and run on Linux
 Download and install from
 https://ollama.com/download  
@@ -55,8 +54,8 @@ In a new terminal session, with bash shell, run the Ollama Client
 ollama list
 ollama run phi
 ```
-### Monitor on Windows
+### Monitor on Nvidia GPU
 Monitor Ollama memory usage on Windows - alternatively use MS Task Monitor.
 ```
-tasklist | findstr /i "ollama"
+watch nvidia-smi
 ```
