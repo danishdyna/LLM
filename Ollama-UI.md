@@ -1,4 +1,7 @@
-# Install
+# Ollama User Interface
+## Candidates
+* [Open WebUI](https://docs.openwebui.com/) (Recommends using docker)
+* [SillyTavern](https://sillytavernai.com/)
 ## WebUI Docker
 ```
 # OLLAMA_BASE_URL=<Ollama Server URL>
