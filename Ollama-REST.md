@@ -18,7 +18,7 @@ curl http://localhost:11434/api/generate -d '{
 ```
 Responce as a single JSON object including statistics.
 ```
-{
+curl http://localhost:11434/api/generate -d '{
   "model": "phi3.5",
   "created_at": "2023-11-09T21:07:55.186497Z",
   "response": "{\n\"morning\": {\n\"color\": \"blue\"\n},\n\"noon\": {\n\"color\": \"blue-gray\"\n},\n\"afternoon\": {\n\"color\": \"warm gray\"\n},\n\"evening\": {\n\"color\": \"orange\"\n}\n}\n",
@@ -30,7 +30,7 @@ Responce as a single JSON object including statistics.
   "prompt_eval_duration": 439038000,
   "eval_count": 180,
   "eval_duration": 4196918000
-}
+}'
 ```
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
