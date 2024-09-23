@@ -69,9 +69,10 @@ Rap over social injustice inflicted on a less forunate character.
 ## Ollama Monitoring
 Ollama running models, Server start and Nvidia GPU Resource status.
 ```
-ollama ps      -- Running Models             (Linux/Win)
-ollama serve   -- Ollanma Server start       (Linux)
-nvidia-smi     -- Nvidia GPU Resource status (Linux)
+ollama ps         -- Running Models             (Linux/Win)
+ollama help serve -- Show how to run            (Linux)
+ollama serve      -- Ollanma Server start       (Linux)
+nvidia-smi        -- Nvidia GPU Resource status (Linux)
 ```
 ## Ollama HTTP Server
 Ollama HTTP Server listens on port 11434 and will default output status.
