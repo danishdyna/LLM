@@ -14,7 +14,7 @@ curl http://localhost:11434/api/generate -d '{
   "prompt": "What color is the sky at different times of the day? Respond using JSON",
   "format": "json",
   "stream": false
-}'
+}' | jq -r '.response'
 ```
 Responce as a single JSON object including statistics.
 ```
@@ -30,7 +30,7 @@ curl http://localhost:11434/api/generate -d '{
   "prompt_eval_duration": 439038000,
   "eval_count": 180,
   "eval_duration": 4196918000
-}'
+}' | jq -r '.response'
 ```
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
