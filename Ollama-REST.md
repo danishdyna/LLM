@@ -32,6 +32,17 @@ curl http://localhost:11434/api/generate -d '{
   "eval_duration": 4196918000
 }' | jq -r '.response'
 ```
+PowerShell command calling REST API
+```
+Invoke-RestMethod -Uri http://localhost:11434/api/chat -Method POST -Body '{
+  "model": "phi3.5",
+  "stream": false,
+"messages": [
+    { "role": "user", "content": "why is the sky blue?" }
+  ]
+}' -ContentType "application/json"
+```
+
 <sub><sub>
 [#Mark-Down](https://daringfireball.net/projects/markdown/)
 [#Ollama](https://github.com/ollama)
