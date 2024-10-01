@@ -23,6 +23,7 @@ Run VS Code and prepare a virtual python environment.
 ```
 python -m venv snake
 snake\Scripts\activate
+pip install pygame
 ```
 ```
 conda create -n myenv python
