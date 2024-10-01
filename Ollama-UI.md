@@ -7,6 +7,7 @@ Running on WebUI Linux may pose problems connecting to the Ollama Backend.
 ### Docker container
 The WebUI documentation suggest the command for running the docker image list below. 
 ```
+docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_MODELS="/chip_work/repo/ollama/models" -e OLLAMA_BASE_URL="http://127.0.0.1:11434" --name open-webui --restart always danishdyna/webui:ollama
 docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 ### Web app
