@@ -9,7 +9,11 @@ The WebUI documentation suggest the command for running the docker image list be
 ```
 docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
-
+### Web app
+The WebUI documentation suggest calling WebUI on port 8080.
+```
+http://localhost:8080
+```
 ## WebUI on Windows
 WebUI on Windows Docker with local Ollama backend. Some how this is not as easy as it seems - WebUI would connet to local Ollama (example worked 28/9-2024).  
 Note, settings are persistent and will survive from previous runs in the Docker volumes.
