@@ -17,7 +17,7 @@ http://localhost:8080
 Check the Ollama Backend connection in the menu: http://localhost:8080/admin/settings, Connections, "Verify connection".
 ### WebUI snake test
 Run WebUI from the borwser select model_ llama3.2:1b-instruct-fp16_ and ask: Python code for snake game.
-Run VS Code and prepare a virtual python environment.
+Run VS Code and prepare a virtual python environment. Download and install [Python](https://www.python.org/downloads/)
 ```
 conda create -n myenv python
 conda activate myenv
