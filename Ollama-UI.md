@@ -1,6 +1,6 @@
 # Ollama User Interface
 ## Candidates
-* [Open WebUI](https://docs.openwebui.com/) (Recommends using docker)
+* [Open WebUI](https://docs.openwebui.com/) (Docker)
 * [SillyTavern](https://sillytavernai.com/)
 ## WebUI on Linux
 Running on WebUI Linux may pose problems connecting to the Ollama Backend. 
