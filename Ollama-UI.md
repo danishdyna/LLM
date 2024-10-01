@@ -3,28 +3,30 @@
 * [Open WebUI](https://docs.openwebui.com/) (Recommends using docker)
 * [SillyTavern](https://sillytavernai.com/)
 ## WebUI on Linux
-Running on WebUI Linux may pose problems connecting to the Ollama Backend. The WebUI documentation suggest the command for running the docker image list below. 
+Running on WebUI Linux may pose problems connecting to the Ollama Backend. 
+### Docker container
+The WebUI documentation suggest the command for running the docker image list below. 
 ```
 docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 
-## WebUI on Windows Docker with local Ollama backend.
-Some how this is not as easy as it seems - WebUI would connet to local Ollama (example worked 28/9-2024).  
+## WebUI on Windows
+WebUI on Windows Docker with local Ollama backend. Some how this is not as easy as it seems - WebUI would connet to local Ollama (example worked 28/9-2024).  
 Note, settings are persistent and will survive from previous runs in the Docker volumes.
 ```
 docker run -d -p 3033:8080 --gpus=all -e OLLAMA_HOST="http://host.docker.internal:11434" -v ollama:/root/.ollama -v open-webui:/app/backend/data --add-host=host.docker.internal:host-gateway --name open-webui33 --restart always ghcr.io/open-webui/open-webui:ollama
 ```
-## WebUI Docker - Direct to Ollma host
+## OLD WebUI Docker - Direct to Ollma host
 ```
 docker run -d -p 3000:8080 -e OLLAMA_HOST=localhost:11434 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
-## WebUI Docker
+## OLD WebUI Docker
 ```
 # OLLAMA_BASE_URL=<Ollama Server URL>
 docker run -d -p 3000:8080            --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
 ```
-## WebUI Docker - Ollama Support
+## OLD WebUI Docker - Ollama Support
 ```
 # OLLAMA_BASE_URL=<Ollama Server URL>
 docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
