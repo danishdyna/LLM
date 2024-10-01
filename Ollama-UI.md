@@ -2,6 +2,12 @@
 ## Candidates
 * [Open WebUI](https://docs.openwebui.com/) (Recommends using docker)
 * [SillyTavern](https://sillytavernai.com/)
+## WebUI on Linux
+Running on WebUI Linux may pose problems connecting to the Ollama Backend. The WebUI documentation suggest the command for running the docker image list below. 
+```
+docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+
 ## WebUI on Windows Docker with local Ollama backend.
 Some how this is not as easy as it seems - WebUI would connet to local Ollama (example worked 28/9-2024).  
 Note, settings are persistent and will survive from previous runs in the Docker volumes.
