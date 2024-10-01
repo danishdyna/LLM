@@ -14,6 +14,16 @@ The WebUI documentation suggest calling WebUI on port 8080.
 ```
 http://localhost:8080
 ```
+Check the Ollama Backend connection in the menu: http://localhost:8080/admin/settings, Connections, "Verify connection".
+### WebUI snake test
+Run WebUI from the borwser select model_ llama3.2:1b-instruct-fp16_ and ask: Python code for snake game.
+Run VS Code and prepare a virtual python environment.
+```
+conda create -n myenv python
+conda activate myenv
+conda install -c conda-forge pygame
+```
+Edit the filesnake.py with the result from WebUI and run.
 ## WebUI on Windows
 WebUI on Windows Docker with local Ollama backend. Some how this is not as easy as it seems - WebUI would connet to local Ollama (example worked 28/9-2024).  
 Note, settings are persistent and will survive from previous runs in the Docker volumes.
