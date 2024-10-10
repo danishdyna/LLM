@@ -5,7 +5,7 @@
 * [LLM Model Create](https://github.com/danishdyna/LLM/blob/main/Ollama-Create.md)
 * [LLM Model Import](https://github.com/danishdyna/LLM/blob/main/Ollama-Import.md)
 * [LLM Open WebUI (Large Language Models)](https://github.com/danishdyna/LLM/blob/main/Open-WebUI.md)
-* [LDM Open WebUI (Latent Diffusion Models)](https://github.com/danishdyna/LLM/blob/main/Diffusion-UI.md)
+* [LDM Open WebUI (Latent Diffusion Models)](https://github.com/danishdyna/LLM/blob/main/Diffusion-WebUI.md)
 * [API REST](https://github.com/danishdyna/LLM/blob/main/Ollama-REST.md)
 * [API Python](https://github.com/danishdyna/LLM/blob/main/Ollama-Python.md)
 * [Ollama Function Calling](https://github.com/danishdyna/LLM/blob/main/Ollama-Function.md)
