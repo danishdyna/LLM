@@ -53,7 +53,7 @@ Python 3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]
 Version: v1.10.1
 Commit hash: 82a973c04367123ae98bd9abdf80d9eda9b910e2
 Installing torch and torchvision
-<span style="color: yellow">
+<span style="color: red">
 Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu121
 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /whl/cu121/torch/
 </span>
