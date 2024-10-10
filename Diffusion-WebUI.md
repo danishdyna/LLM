@@ -1,7 +1,7 @@
 # Stable Diffusion web UI
 GitHub: [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)  
-Wiki: [Features](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
-Video: [Install Stable Diffusion - automatic1111](https://youtu.be/kqXpAKVQDNU)
+Wiki: [Features](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)  
+Video: [Install Stable Diffusion - automatic1111](https://youtu.be/kqXpAKVQDNU)  
 ## 
 ## webui.sh log
 URL Links referenced:
