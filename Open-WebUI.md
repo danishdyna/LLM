@@ -1,4 +1,4 @@
-# Ollama User Interface
+# Open Web User Interface
 ## Candidates
 * [Open WebUI](https://docs.openwebui.com/) (Docker)
 * [SillyTavern](https://sillytavernai.com/)
