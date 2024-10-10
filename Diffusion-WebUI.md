@@ -3,6 +3,19 @@ GitHub: [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffus
 Wiki: [Features](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
 ## 
 ## webui.sh log
+URL Links referenced:
+```
+https://files.pythonhosted.org/packages/d4/55/90db48d85f7689ec6f81c0db0622d704306c5284850383c090e6c7195a5c/pip-24.2-py3-none-any.whl.metadata
+https://pypi.org/simple, https://download.pytorch.org/whl/cu121
+https://download.pytorch.org/whl/cu121/torch-2.1.2%2Bcu121-cp311-cp311-linux_x86_64.whl (2200.7 MB)
+https://download.pytorch.org/whl/cu121/torchvision-0.16.2%2Bcu121-cp311-cp311-linux_x86_64.whl (6.8 MB)
+https://download.pytorch.org/whl/triton-2.1.0-0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (89.2 MB)
+https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip --prefer-binary
+https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip
+```
+
+
 Warning:  
 Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu121   
 WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /whl/cu121/torch/  
