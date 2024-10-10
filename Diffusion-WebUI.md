@@ -3,12 +3,12 @@ GitHub: [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffus
 Wiki: [Features](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features)
 ## 
 ## webui.sh log
-Warning:
-Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu121  
-WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /whl/cu121/torch/
-Error:
+Warning:  
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu121   
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /whl/cu121/torch/  
+Error:  
 ERROR: Could not install packages due to an OSError: HTTPSConnectionPool(host='codeload.github.com', port=443): Max retries exceeded with url: /openai/CLIP/zip/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1 (Caused by ProtocolError('Connection aborted.',  
- ConnectionResetError(104, 'Connection reset by peer')))
+ ConnectionResetError(104, 'Connection reset by peer')))  
 ```
 ################################################################
 Install script for stable-diffusion + Web UI
