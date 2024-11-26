@@ -9,6 +9,7 @@ POST /api/generate
 ### POST Request - Responce in JSON
 Request with Prompt for Responce in JSON with given Model and no streaming ("stream": false).
 ```
+curl http://localhost:11434/api/generate -d '{"model": "phi3.5","prompt": "Tell a joke", "stream": false}'
 curl http://localhost:11434/api/generate -d '{
   "model": "phi3.5",
   "prompt": "What color is the sky at different times of the day? Respond using JSON",
