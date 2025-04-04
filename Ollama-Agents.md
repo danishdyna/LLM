@@ -27,4 +27,3 @@ response = agent_executor.invoke({"messages": [("user", "Explain artificial inte
 for message in response['messages']:
     print(message.content)
 ```
-
