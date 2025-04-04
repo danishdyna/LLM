@@ -5,7 +5,7 @@ Install the required Python packages:
 
     pip install langgraph langchain_community tiktoken langchainhub chromadb langchain tavily-python langchain-openai
 Create a Python script to define and run your AI agent:
-````
+```python
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langgraph.prebuilt import create_react_agent
 from langchain_openai import ChatOpenAI
@@ -26,5 +26,5 @@ response = agent_executor.invoke({"messages": [("user", "Explain artificial inte
 
 for message in response['messages']:
     print(message.content)
-````
+```
 
