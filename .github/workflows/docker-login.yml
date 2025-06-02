@@ -1,4 +1,4 @@
-name: Manual Docker Login
+name: Docker Login
 on:
        workflow_dispatch:
 jobs:
