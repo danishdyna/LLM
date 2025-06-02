@@ -1,0 +1,21 @@
+name: Save Docker Image
+
+on:
+  workflow_dispatch: # allows manual trigger
+
+jobs:
+  save-image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pull Docker image
+        run: docker pull nginx:latest
+
+      - name: Save Docker image to tar
+        run: docker save nginx:latest -o nginx.tar
+
+      - name: Upload image as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nginx-image
+          path: nginx.tar
