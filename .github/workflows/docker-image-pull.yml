@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Pull Docker image
 #       run: docker pull nginx:latest
-        run: docker pull ghcr.io/open-webui/open-webui
+        run: docker pull ghcr.io/open-webui/open-webui:latest
 
       - name: Save Docker image to tar
-        run: docker save open-webui:latest -o open-webui.tar
+        run: docker save ghcr.io/open-webui/open-webui:latest -o open-webui.tar
 
       - name: Upload image as artifact
         uses: actions/upload-artifact@v4
