@@ -1,4 +1,4 @@
-name: Push Docker Image to Docker Hub
+name: Docker Image Push to DockerHub
 
 on:
   workflow_dispatch: # manually trigger
