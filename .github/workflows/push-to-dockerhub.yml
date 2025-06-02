@@ -1,0 +1,21 @@
+name: Push Docker Image to Docker Hub
+
+on:
+  workflow_dispatch: # manually trigger
+
+jobs:
+  push-image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Pull image from Docker Hub
+        run: docker pull nginx:latest
+
+      - name: Tag image for user's repo
+        run: docker tag nginx:latest ${{ secrets.DOCKER_USERNAME }}/nginx:mycopy
+
+      - name: Push image to user's Docker Hub repo
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/nginx:mycopy
