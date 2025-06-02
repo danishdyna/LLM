@@ -12,10 +12,11 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Pull image from Docker Hub
-        run: docker pull nginx:latest
+#       run: docker pull nginx:latest
+        run: docker pull ghcr.io/open-webui/open-webui:latest
 
       - name: Tag image for user's repo
-        run: docker tag nginx:latest ${{ secrets.DOCKER_USERNAME }}/nginx:mycopy
-
+        run: docker tag ghcr.io/open-webui/open-webui:latest ${{ secrets.DOCKER_USERNAME }}/open-webui:latest
+        
       - name: Push image to user's Docker Hub repo
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/nginx:mycopy
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/open-webui:latest
