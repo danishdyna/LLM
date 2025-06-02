@@ -1,4 +1,4 @@
-name: Save Docker Image
+name: Docker Image Pull from DockerHub
 
 on:
   workflow_dispatch: # allows manual trigger
