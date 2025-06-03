@@ -1,4 +1,4 @@
-name: Docker Image Push to DockerHub
+name: Docker Image Push WebUI to DockerHub
 
 on:
   workflow_dispatch: # manually trigger
