@@ -1,4 +1,4 @@
-name: Fetch Binary
+name: Fetch Github Binary
 
 on:
   workflow_dispatch:
@@ -20,6 +20,6 @@ jobs:
 
       - name: Create release
         run: |
-          gh release create fetch-binary linux-amd64.tar.zst --title "Binary"
+          gh release create linux-binary linux-amd64.tar.zst --title "Linux Binary"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
