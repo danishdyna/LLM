@@ -15,9 +15,10 @@ jobs:
         run: |
           curl -L https://ollama.com/download/ollama-linux-amd64.tar.zst -o linux-amd64.tar.zst
 
-      - name: Create Release and Upload Asset
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: fetch-binary
-          name: Binary
-          files: linux-amd64.tar.zst
+      - name: Create release
+        run: |
+          gh release create fetch-binary \
+            linux-amd64.tar.zst \
+            --title "Binary"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
