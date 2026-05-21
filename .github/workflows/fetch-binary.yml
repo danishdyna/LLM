@@ -1,18 +1,23 @@
-name: Fetch Binary
+name: Fetch Ollama Binary
 
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Download
+      - name: Download binary
         run: |
           curl -L https://ollama.com/download/ollama-linux-amd64.tar.zst -o linux-amd64.tar.zst
 
-      - name: Upload to GitHub Release
+      - name: Create Release and Upload Asset
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ollama-binary
+          name: Ollama Binary
           files: linux-amd64.tar.zst
