@@ -11,14 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Download binary
         run: |
           curl -L https://ollama.com/download/ollama-linux-amd64.tar.zst -o linux-amd64.tar.zst
 
       - name: Create release
         run: |
-          gh release create fetch-binary \
-            linux-amd64.tar.zst \
-            --title "Binary"
+          gh release create fetch-binary linux-amd64.tar.zst --title "Binary"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
